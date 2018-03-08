@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef902a4-b4fd-4cc3-95b1-45306e7e0793" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/code/01/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/code/09/content.txt" afterPath="$PROJECT_DIR$/code/04 - fs/content.txt" />
-      <change beforePath="$PROJECT_DIR$/code/09/openRead.js" afterPath="$PROJECT_DIR$/code/04 - fs/openRead.js" />
-      <change beforePath="$PROJECT_DIR$/code/09/readFile.js" afterPath="$PROJECT_DIR$/code/04 - fs/readFile.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/01 - nodejs基础.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/05/getModule.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/05/getModule2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/05/getSingleObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/05/module.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/05/package.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/05/singleobject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/07/console.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/07/process.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/08/events.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/08/util.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code/10/app.js" afterPath="$PROJECT_DIR$/code/05 - http/app.js" />
+      <change beforePath="$PROJECT_DIR$/code/10/get.js" afterPath="$PROJECT_DIR$/code/05 - http/get.js" />
+      <change beforePath="$PROJECT_DIR$/code/10/post.js" afterPath="$PROJECT_DIR$/code/05 - http/post.js" />
+      <change beforePath="$PROJECT_DIR$/code/10/server.js" afterPath="$PROJECT_DIR$/code/05 - http/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +45,48 @@
       <file leaf-file-name="events.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/03 - events/events.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/05 - http/get.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/05 - http/post.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="23" />
+              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/05 - http/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/05 - http/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -49,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readFile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readFile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/04 - fs/readFile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="30" />
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -79,6 +132,10 @@
       <list>
         <option value="$PROJECT_DIR$/code/03 - events/events.js" />
         <option value="$PROJECT_DIR$/code/04 - fs/readFile.js" />
+        <option value="$PROJECT_DIR$/code/05 - http/post.js" />
+        <option value="$PROJECT_DIR$/code/05 - http/server.js" />
+        <option value="$PROJECT_DIR$/code/05 - http/app.js" />
+        <option value="$PROJECT_DIR$/code/05 - http/get.js" />
       </list>
     </option>
   </component>
@@ -88,7 +145,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="211" />
     <option name="y" value="73" />
     <option name="width" value="1924" />
@@ -131,7 +188,7 @@
               <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="08" type="462c0819:PsiDirectoryNode" />
+              <item name="05 - http" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,6 +202,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -163,20 +221,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.readFile.js">
+  <component name="RunManager" selected="Node.js.get.js">
     <configuration name="argv.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/code/process/argv.js" working-dir="$PROJECT_DIR$/code/process" />
     <configuration name="events.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="events.js" working-dir="$PROJECT_DIR$/code/03 - events" />
+    <configuration name="get.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="get.js" working-dir="$PROJECT_DIR$/code/05 - http" />
     <configuration name="readFile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="readFile.js" working-dir="$PROJECT_DIR$/code/04 - fs" />
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.argv.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.events.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.readFile.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.get.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.readFile.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.events.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.argv.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.get.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.readFile.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.events.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.argv.js" />
       </list>
     </recent_temporary>
   </component>
@@ -193,15 +254,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520513813008</updated>
-      <workItem from="1520513814337" duration="2751000" />
+      <workItem from="1520513814337" duration="5457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2751000" />
+    <option name="totallyTimeSpent" value="5457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.247614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -266,10 +327,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/03 - events/events.js">
+    <entry file="file://$PROJECT_DIR$/code/04 - fs/openRead.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="351">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/04 - fs/readFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -282,18 +351,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/04 - fs/openRead.js">
+    <entry file="file://$PROJECT_DIR$/code/03 - events/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="27">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/04 - fs/readFile.js">
+    <entry file="file://$PROJECT_DIR$/code/05/getModule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/05/getModule2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/05/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/05 - http/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/05 - http/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/05 - http/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/05 - http/get.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
