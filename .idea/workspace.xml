@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef902a4-b4fd-4cc3-95b1-45306e7e0793" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/code/07 - express/getTitle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/express.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/code/12/getTitle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/code/12/post.js" afterPath="$PROJECT_DIR$/code/07 - express/post.js" />
+      <change beforePath="$PROJECT_DIR$/express.md" afterPath="$PROJECT_DIR$/01 - Express 应用程序生成器.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="express.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/express.md">
+      <file leaf-file-name="01 - Express 应用程序生成器.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01 - Express 应用程序生成器.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -149,7 +144,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="211" />
     <option name="y" value="73" />
     <option name="width" value="1924" />
@@ -243,15 +238,15 @@
       <updated>1520513813008</updated>
       <workItem from="1520513814337" duration="5995000" />
       <workItem from="1520594649947" duration="1538000" />
-      <workItem from="1520601490959" duration="2001000" />
+      <workItem from="1520601490959" duration="2047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9534000" />
+    <option name="totallyTimeSpent" value="9580000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.247614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -536,10 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express.md">
+    <entry file="file://$PROJECT_DIR$/01 - Express 应用程序生成器.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
