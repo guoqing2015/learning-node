@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bef902a4-b4fd-4cc3-95b1-45306e7e0793" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/docs/basic/events模块.md" afterPath="$PROJECT_DIR$/docs/basic/events模块.md" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/Http模块.md" afterPath="$PROJECT_DIR$/docs/basic/http模块.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,6 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="http模块.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/basic/http模块.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="events.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/03 - events/events.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -27,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events模块.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events模块.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/basic/events模块.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -37,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="95">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -101,8 +112,8 @@
         <option value="$PROJECT_DIR$/01 - 全局对象和全局变量.md" />
         <option value="$PROJECT_DIR$/模块/01 - Http模块.md" />
         <option value="$PROJECT_DIR$/code/03 - events/events.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docs/basic/events模块.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -245,7 +256,7 @@
       <workItem from="1520594649947" duration="1538000" />
       <workItem from="1520601490959" duration="2047000" />
       <workItem from="1520645762783" duration="5111000" />
-      <workItem from="1520673094396" duration="1968000" />
+      <workItem from="1520673094396" duration="2038000" />
     </task>
     <task id="LOCAL-00001" summary="node">
       <created>1520646792258</created>
@@ -303,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520674943212</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="node">
+      <created>1520675068285</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1520675068285</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16659000" />
+    <option name="totallyTimeSpent" value="16729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -636,14 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/basic/Http模块.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/03 - events/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -660,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/02 - util/inherits.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -680,6 +682,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/basic/http模块.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
