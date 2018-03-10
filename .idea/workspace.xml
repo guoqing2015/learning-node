@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef902a4-b4fd-4cc3-95b1-45306e7e0793" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/模块/01 - Http模块.md" afterPath="$PROJECT_DIR$/模块/01 - Http模块.md" />
+      <change beforePath="$PROJECT_DIR$/01 - 全局对象和全局变量.md" afterPath="$PROJECT_DIR$/docs/basic/全局对象和全局变量.md" />
+      <change beforePath="$PROJECT_DIR$/02 - Express 应用程序生成器.md" afterPath="$PROJECT_DIR$/docs/express/Express 应用程序生成器.md" />
+      <change beforePath="$PROJECT_DIR$/模块/01 - Http模块.md" afterPath="$PROJECT_DIR$/docs/basic/Http模块.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,31 +20,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="01 - 全局对象和全局变量.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 - 全局对象和全局变量.md">
+      <file leaf-file-name="Http模块.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/basic/Http模块.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Express 应用程序生成器.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/express/Express 应用程序生成器.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 - Http模块.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/模块/01 - Http模块.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02 - Express 应用程序生成器.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02 - Express 应用程序生成器.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -72,6 +75,7 @@
         <option value="$PROJECT_DIR$/02 - Express 应用程序生成器.md" />
         <option value="$PROJECT_DIR$/01 - 全局对象和全局变量.md" />
         <option value="$PROJECT_DIR$/模块/01 - Http模块.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -110,11 +114,6 @@
               <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="模块" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -134,6 +133,9 @@
       <recent name="C:\personal\github\learning-nodejs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\personal\github\learning-nodejs\docs\basic" />
+      <recent name="C:\personal\github\learning-nodejs\docs\express" />
+      <recent name="C:\personal\github\learning-nodejs\docs" />
       <recent name="C:\personal\github\learning-nodejs\模块" />
       <recent name="D:\github\learning-nodejs\code" />
     </key>
@@ -186,7 +188,7 @@
       <workItem from="1520513814337" duration="5995000" />
       <workItem from="1520594649947" duration="1538000" />
       <workItem from="1520601490959" duration="2047000" />
-      <workItem from="1520645762783" duration="2853000" />
+      <workItem from="1520645762783" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="node">
       <created>1520646792258</created>
@@ -216,16 +218,23 @@
       <option name="project" value="LOCAL" />
       <updated>1520660254262</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="node">
+      <created>1520660325651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520660325651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12433000" />
+    <option name="totallyTimeSpent" value="13582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24710222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24710222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -334,7 +343,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02 - Express 应用程序生成器.md">
+    <entry file="file://$PROJECT_DIR$/docs/express/Express 应用程序生成器.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
@@ -585,15 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02 - Express 应用程序生成器.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 - 全局对象和全局变量.md">
+    <entry file="file://$PROJECT_DIR$/docs/basic/全局对象和全局变量.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -601,10 +602,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/模块/01 - Http模块.md">
+    <entry file="file://$PROJECT_DIR$/docs/basic/Http模块.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/express/Express 应用程序生成器.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
