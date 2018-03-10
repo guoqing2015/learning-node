@@ -4,7 +4,6 @@
     <list default="true" id="bef902a4-b4fd-4cc3-95b1-45306e7e0793" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/docs/basic/Http模块.md" afterPath="$PROJECT_DIR$/docs/basic/http模块.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -152,34 +151,6 @@
               <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="03 - events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -256,7 +227,7 @@
       <workItem from="1520594649947" duration="1538000" />
       <workItem from="1520601490959" duration="2047000" />
       <workItem from="1520645762783" duration="5111000" />
-      <workItem from="1520673094396" duration="2038000" />
+      <workItem from="1520673094396" duration="2104000" />
     </task>
     <task id="LOCAL-00001" summary="node">
       <created>1520646792258</created>
@@ -321,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520675068285</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="node">
+      <created>1520675140291</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1520675140291</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16729000" />
+    <option name="totallyTimeSpent" value="16795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -697,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
