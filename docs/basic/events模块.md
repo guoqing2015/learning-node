@@ -22,12 +22,12 @@ events模块的**EventEmitter**是一个构造函数，可以用来生成事件�
 
 ```
 // on监听事件
-emitter.on('someEvent',function(arg1,arg2){
-	console.log('Listener2',arg1,arg2);
+emitter.on('someEvent',function(arg1, arg2){
+	console.log('Listener2', arg1, arg2);
 });
 
 // emit发出事件
-emitter.emit('someEvent','marico', 1991);
+emitter.emit('someEvent', 'marico', 1991);
 ```
 
 
