@@ -30,6 +30,7 @@ http.createServer(function (request, response){
 
 console.log('Server running on port 8080.');
 ```
+[Google](http://www.google.com/ "Google")
 
 [查看代码](../code/05 - http服务端/get.js)
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef902a4-b4fd-4cc3-95b1-45306e7e0793" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/模块/01 - Http模块.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/模块/01 - Http模块.md" afterPath="$PROJECT_DIR$/模块/01 - Http模块.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/模块/01 - Http模块.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3154">
-              <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+              <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,7 +186,7 @@
       <workItem from="1520513814337" duration="5995000" />
       <workItem from="1520594649947" duration="1538000" />
       <workItem from="1520601490959" duration="2047000" />
-      <workItem from="1520645762783" duration="2544000" />
+      <workItem from="1520645762783" duration="2676000" />
     </task>
     <task id="LOCAL-00001" summary="node">
       <created>1520646792258</created>
@@ -195,11 +195,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520646792258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="node">
+      <created>1520660017376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520660017376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12124000" />
+    <option name="totallyTimeSpent" value="12256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -583,7 +590,7 @@
     <entry file="file://$PROJECT_DIR$/模块/01 - Http模块.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3154">
-          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding />
         </state>
       </provider>
