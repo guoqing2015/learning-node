@@ -30,8 +30,8 @@
       <file leaf-file-name="01 - Http模块.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/模块/01 - Http模块.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3154">
-              <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+            <state relative-caret-position="627">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,7 +186,7 @@
       <workItem from="1520513814337" duration="5995000" />
       <workItem from="1520594649947" duration="1538000" />
       <workItem from="1520601490959" duration="2047000" />
-      <workItem from="1520645762783" duration="2782000" />
+      <workItem from="1520645762783" duration="2853000" />
     </task>
     <task id="LOCAL-00001" summary="node">
       <created>1520646792258</created>
@@ -209,11 +209,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520660147732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="node">
+      <created>1520660254261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520660254262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12362000" />
+    <option name="totallyTimeSpent" value="12433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -596,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/模块/01 - Http模块.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3154">
-          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state relative-caret-position="627">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
