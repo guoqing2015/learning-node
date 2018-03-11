@@ -4,7 +4,7 @@
    处理客户端通过`get/post`请求传递过来的参数
 
 
-1. querystring.parse(str,separator,eq,options)
+1. **querystring.parse(str,separator,eq,options)**
 
 parse这个方法是将一个字符串反序列化为一个对象。
 
@@ -33,7 +33,7 @@ querystring.parse("name=whitemu#sex=man#sex=women","#",null,{maxKeys:2});
  */
 ```
 
-2.  querystring.stringify(obj,separator,eq,options)
+2.  **querystring.stringify(obj,separator,eq,options)**
 
 format这个方法是将传入的url对象编程一个url字符串并返回
 
@@ -53,7 +53,7 @@ stringify这个方法是将一个对象序列化成一个字符串，与querystr
 querystring.stringify({name: 'whitemu', sex: [ 'man', 'women' ] });
 ```
 
-3. querystring.escape(str)
+3. **querystring.escape(str)**
 
 escape可使传入的字符串进行编码
 
@@ -62,7 +62,7 @@ querystring.escape("name=abc");
 ```
 
 
-4.  querystring.unescape(str)
+4.  **querystring.unescape(str)**
 
 unescape方法可将含有%的字符串进行解码
 

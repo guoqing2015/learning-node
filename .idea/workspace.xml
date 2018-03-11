@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef902a4-b4fd-4cc3-95b1-45306e7e0793" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/basic/querystring模块.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/docs/basic/querystring模块.md" afterPath="$PROJECT_DIR$/docs/basic/querystring模块.md" />
       <change beforePath="$PROJECT_DIR$/docs/basic/url模块.md" afterPath="$PROJECT_DIR$/docs/basic/url模块.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -68,12 +68,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="querystring模块.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="querystring模块.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/basic/querystring模块.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1036">
-                <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+              <first_editor relative-caret-position="432">
+                <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -81,12 +81,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="url模块.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="url模块.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/basic/url模块.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="145">
-                <caret line="55" column="2" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+              <first_editor relative-caret-position="172">
+                <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/code/12/getTitle.js" />
         <option value="$PROJECT_DIR$/code/07 - express/post.js" />
         <option value="$PROJECT_DIR$/express.md" />
-        <option value="$PROJECT_DIR$/docs/basic/querystring模块.md" />
         <option value="$PROJECT_DIR$/docs/basic/url模块.md" />
+        <option value="$PROJECT_DIR$/docs/basic/querystring模块.md" />
       </list>
     </option>
   </component>
@@ -265,12 +265,12 @@
       <workItem from="1520601490959" duration="3345000" />
       <workItem from="1520639064175" duration="54000" />
       <workItem from="1520722199722" duration="777000" />
-      <workItem from="1520728342796" duration="446000" />
+      <workItem from="1520728342796" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12155000" />
+    <option name="totallyTimeSpent" value="12230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -283,7 +283,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -631,6 +631,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/basic/url模块.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="172">
+            <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/basic/querystring模块.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -640,19 +651,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1036">
-            <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/basic/url模块.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="145">
-            <caret line="55" column="2" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+          <first_editor relative-caret-position="432">
+            <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
