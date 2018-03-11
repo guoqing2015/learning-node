@@ -30,7 +30,7 @@ http.createServer(function (request, response){
 
 console.log('Server running on port 8080.');
 ```
-[查看代码](https://github.com/guoqing2013/learning-nodejs/blob/master/code/05%20-%20http%E6%9C%8D%E5%8A%A1%E7%AB%AF/get.js)
+[查看代码](https://github.com/guoqing2013/learning-nodejs/blob/master/code/basic/05%20-%20http%E6%9C%8D%E5%8A%A1%E7%AB%AF/get.js)
 
 
 
@@ -73,7 +73,7 @@ http.createServer(function (req, res) {
 
 data事件会在数据接收过程中，每收到一段数据就触发一次，接收到的数据被传入回调函数。end事件则是在所有数据接收完成后触发。
 
-[查看代码](https://github.com/guoqing2013/learning-nodejs/blob/master/code/05%20-%20http%E6%9C%8D%E5%8A%A1%E7%AB%AF/post.js)
+[查看代码](https://github.com/guoqing2013/learning-nodejs/blob/master/code/basic/05%20-%20http%E6%9C%8D%E5%8A%A1%E7%AB%AF/post.js)
 
 
 ## http客户端
@@ -97,7 +97,7 @@ var request = http.get({
 });
 ```
 
-[查看代码](https://github.com/guoqing2013/learning-nodejs/blob/master/code/06%20-%20http%E5%AE%A2%E6%88%B7%E7%AB%AF/clientGet.js)
+[查看代码](https://github.com/guoqing2013/learning-nodejs/blob/master/code/basic/06%20-%20http%E5%AE%A2%E6%88%B7%E7%AB%AF/clientGet.js)
 
 ### request()
 
@@ -126,7 +126,7 @@ request方法的options参数，可以是一个对象，也可以是一个字符
 
 http.request()返回一个**http.ClientRequest**类的实例。它是一个可写数据流，如果你想通过POST方法发送一个文件，可以将文件写入这个ClientRequest对象。
 
-[查看代码](https://github.com/guoqing2013/learning-nodejs/blob/master/code/06%20-%20http%E5%AE%A2%E6%88%B7%E7%AB%AF/clientRequest.js)
+[查看代码](https://github.com/guoqing2013/learning-nodejs/blob/master/code/basic/06%20-%20http%E5%AE%A2%E6%88%B7%E7%AB%AF/clientRequest.js)
 
 ## Server()
 
