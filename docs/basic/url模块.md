@@ -4,7 +4,7 @@
     url模块用于生成和解析URL。
 
 
-## url.parse(urlString,boolean,boolean)
+1. url.parse(urlString,boolean,boolean)
 
 parse这个方法可以将一个url的字符串解析并返回一个url的对象
 
@@ -36,7 +36,7 @@ protocol: 'http:',
 */
 ```
 
-## url.format(urlObj)
+2. url.format(urlObj)
 
 format这个方法是将传入的url对象编程一个url字符串并返回
 
@@ -53,7 +53,7 @@ url.format({
 ```
 
 
-## url.resolve(from, to)
+3. url.resolve(from, to)
 
 url.resolve方法用于生成URL。它的第一个参数是基准URL，其余参数依次根据基准URL，生成对应的位置。
 
