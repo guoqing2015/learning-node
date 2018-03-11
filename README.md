@@ -17,7 +17,7 @@
 
 ## 笔记
 1. Getting Started with Express
-    * [01- Create a Basic Server with Express](docs/code/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express)
+    * [01- Create a Basic Server with Express](code/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
 
 
 

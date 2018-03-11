@@ -4,8 +4,6 @@
     <list default="true" id="7165a4fd-e845-421d-9a25-a38e409ecc1b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/code/Getting Started with Express/01- Create a Basic Server with Express/index.js" afterPath="$PROJECT_DIR$/code/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js" />
-      <change beforePath="$PROJECT_DIR$/code/Getting Started with Express/01- Create a Basic Server with Express/package.json" afterPath="$PROJECT_DIR$/code/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +22,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="307">
-                <caret line="19" column="123" lean-forward="false" selection-start-line="19" selection-start-column="123" selection-end-line="19" selection-end-column="123" />
+                <caret line="19" column="127" lean-forward="false" selection-start-line="19" selection-start-column="127" selection-end-line="19" selection-end-column="127" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -248,12 +246,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520753747890</updated>
       <workItem from="1520753749212" duration="1117000" />
-      <workItem from="1520757813166" duration="3635000" />
+      <workItem from="1520757813166" duration="3729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4752000" />
+    <option name="totallyTimeSpent" value="4846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -394,7 +392,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="307">
-            <caret line="19" column="123" lean-forward="false" selection-start-line="19" selection-start-column="123" selection-end-line="19" selection-end-column="123" />
+            <caret line="19" column="127" lean-forward="false" selection-start-line="19" selection-start-column="127" selection-end-line="19" selection-end-column="127" />
             <folding />
           </first_editor>
           <second_editor />
