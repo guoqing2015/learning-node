@@ -4,7 +4,7 @@
    处理客户端通过`get/post`请求传递过来的参数
 
 
-1. **querystring.parse(str,separator,eq,options)**
+1. **querystring.parse(str[, sep[, eq[, options]]])**
 
 parse这个方法是将一个字符串反序列化为一个对象。
 
@@ -31,6 +31,13 @@ querystring.parse("name=whitemu#sex=man#sex=women","#",null,{maxKeys:2});
  return:
  { name: 'whitemu', sex: 'man' }
  */
+ 
+ querystring.parse(
+   'name=whitemu&sex=man&sex=women',
+   null,
+   null,
+   { decodeURIComponent: gbkDecodeURIComponent }
+ )
 ```
 
 2.  **querystring.stringify(obj,separator,eq,options)**
