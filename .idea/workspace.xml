@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7165a4fd-e845-421d-9a25-a38e409ecc1b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/code/Getting Started with Express/01- Create a Basic Server with Express/package.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/code/01 - process/argv.js" afterPath="$PROJECT_DIR$/code/basic/01 - process/argv.js" />
-      <change beforePath="$PROJECT_DIR$/code/01 - process/nexttick.js" afterPath="$PROJECT_DIR$/code/basic/01 - process/nexttick.js" />
-      <change beforePath="$PROJECT_DIR$/code/01 - process/stdin.js" afterPath="$PROJECT_DIR$/code/basic/01 - process/stdin.js" />
-      <change beforePath="$PROJECT_DIR$/code/02 - util/inherits.js" afterPath="$PROJECT_DIR$/code/basic/02 - util/inherits.js" />
-      <change beforePath="$PROJECT_DIR$/code/02 - util/inspect.js" afterPath="$PROJECT_DIR$/code/basic/02 - util/inspect.js" />
-      <change beforePath="$PROJECT_DIR$/code/03 - events/error.js" afterPath="$PROJECT_DIR$/code/basic/03 - events/error.js" />
-      <change beforePath="$PROJECT_DIR$/code/03 - events/events.js" afterPath="$PROJECT_DIR$/code/basic/03 - events/events.js" />
-      <change beforePath="$PROJECT_DIR$/code/04 - fs/content.txt" afterPath="$PROJECT_DIR$/code/basic/04 - fs/content.txt" />
-      <change beforePath="$PROJECT_DIR$/code/04 - fs/openRead.js" afterPath="$PROJECT_DIR$/code/basic/04 - fs/openRead.js" />
-      <change beforePath="$PROJECT_DIR$/code/04 - fs/readFile.js" afterPath="$PROJECT_DIR$/code/basic/04 - fs/readFile.js" />
-      <change beforePath="$PROJECT_DIR$/code/05 - http服务端/app.js" afterPath="$PROJECT_DIR$/code/basic/05 - http服务端/app.js" />
-      <change beforePath="$PROJECT_DIR$/code/05 - http服务端/get.js" afterPath="$PROJECT_DIR$/code/basic/05 - http服务端/get.js" />
-      <change beforePath="$PROJECT_DIR$/code/05 - http服务端/post.js" afterPath="$PROJECT_DIR$/code/basic/05 - http服务端/post.js" />
-      <change beforePath="$PROJECT_DIR$/code/05 - http服务端/server.js" afterPath="$PROJECT_DIR$/code/basic/05 - http服务端/server.js" />
-      <change beforePath="$PROJECT_DIR$/code/06 - http客户端/clientGet.js" afterPath="$PROJECT_DIR$/code/basic/06 - http客户端/clientGet.js" />
-      <change beforePath="$PROJECT_DIR$/code/06 - http客户端/clientRequest.js" afterPath="$PROJECT_DIR$/code/basic/06 - http客户端/clientRequest.js" />
-      <change beforePath="$PROJECT_DIR$/code/07 - express/getTitle.js" afterPath="$PROJECT_DIR$/code/basic/07 - express/getTitle.js" />
-      <change beforePath="$PROJECT_DIR$/code/07 - express/post.js" afterPath="$PROJECT_DIR$/code/basic/07 - express/post.js" />
-      <change beforePath="$PROJECT_DIR$/code/13-16/node.zip" afterPath="$PROJECT_DIR$/code/basic/13-16/node.zip" />
-      <change beforePath="$PROJECT_DIR$/code/13-16/nodeitem.zip" afterPath="$PROJECT_DIR$/code/basic/13-16/nodeitem.zip" />
-      <change beforePath="$PROJECT_DIR$/code/13-16/pcat.zip" afterPath="$PROJECT_DIR$/code/basic/13-16/pcat.zip" />
-      <change beforePath="$PROJECT_DIR$/code/17-20/blog.zip" afterPath="$PROJECT_DIR$/code/basic/17-20/blog.zip" />
-      <change beforePath="$PROJECT_DIR$/docs/basic/http模块.md" afterPath="$PROJECT_DIR$/docs/basic/http模块.md" />
-      <change beforePath="$PROJECT_DIR$/notes/nodemon与supervisor项目自动重启工具.md" afterPath="$PROJECT_DIR$/docs/notes/nodemon与supervisor项目自动重启工具.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="540">
-                <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <first_editor relative-caret-position="469">
+                <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -220,12 +194,6 @@
               <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-nodejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning-nodejs" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="express" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -278,25 +246,25 @@
       <option name="presentableId" value="Default" />
       <updated>1520753747890</updated>
       <workItem from="1520753749212" duration="1117000" />
-      <workItem from="1520757813166" duration="3379000" />
+      <workItem from="1520757813166" duration="3510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4496000" />
+    <option name="totallyTimeSpent" value="4627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -423,8 +391,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="540">
-            <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <first_editor relative-caret-position="469">
+            <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
             <folding />
           </first_editor>
           <second_editor />

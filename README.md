@@ -12,12 +12,12 @@
 ## Express
 * [Express应用程序生成器](docs/express/Express应用程序生成器.md)
 
-## 
-* [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
+## 其他
+* [nodemon与supervisor项目自动重启工具](docs/basic/nodemon与supervisor项目自动重启工具.md)
 
 ## 笔记
 1. Getting Started with Express
-    * [01- Create a Basic Server with Express](docs/code/Getting Started with Express/01- Create a Basic Server with Express)
+    * [01- Create a Basic Server with Express](docs/code/Getting Started with Express/)
     * [01- Create a Basic Server with Express](docs/code/Getting Started with Express/01- Create a Basic Server with Express)
 
 
