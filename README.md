@@ -21,14 +21,7 @@
     * [01- Create a Basic Server with Express](notes/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
     * [02- Define dynamic routes through Express](notes/Getting-Started-with-Express/02-Define-dynamic-routes-through-Express/index.js)
     * [03- Use Template Engines with Express](notes/Getting-Started-with-Express/03-Use-Template-Engines-with-Express/index.js)
-
-
-
-## notes
-1. **Getting Started with Express**
-    * [01- Create a Basic Server with Express](notes/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
-    * [02- Define dynamic routes through Express](notes/Getting-Started-with-Express/02-Define-dynamic-routes-through-Express/index.js)
-    * [03- Use Template Engines with Express](notes/Getting-Started-with-Express/03-Use-Template-Engines-with-Express/index.js)
+    * [04- Serve static files with express](notes/Getting-Started-with-Express/04-Serve-static-files-with-express/index.js)
 
 
 
