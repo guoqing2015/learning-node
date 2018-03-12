@@ -12,10 +12,9 @@
 ## Express
 * [Express应用程序生成器](docs/express/Express应用程序生成器.md)
 
-## 其他
+## 资料
 * [nodemon与supervisor项目自动重启工具](docs/basic/nodemon与supervisor项目自动重启工具.md)
 * [MongoDB 安装与配置--Win10](http://blog.csdn.net/yule_czh/article/details/78942448)
-* [MongoDB 安装与配置2](https://www.cnblogs.com/wuzhiyuan/p/7986724.html)
 
 ## notes
 1. **Getting Started with Express**
