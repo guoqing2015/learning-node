@@ -15,11 +15,11 @@
 ## 其他
 * [nodemon与supervisor项目自动重启工具](docs/basic/nodemon与supervisor项目自动重启工具.md)
 
-## 笔记
+## notes
 1. Getting Started with Express
-    * [01- Create a Basic Server with Express](code/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
-    * [02- Define dynamic routes through Express](code/Getting-Started-with-Express/02-Define-dynamic-routes-through-Express/index.js)
-    * [02- Use Template Engines with Express](code/Getting-Started-with-Express/03-Use-Template-Engines-with-Express/index.js)
+    * [01- Create a Basic Server with Express](notes/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
+    * [02- Define dynamic routes through Express](notes/Getting-Started-with-Express/02-Define-dynamic-routes-through-Express/index.js)
+    * [02- Use Template Engines with Express](notes/Getting-Started-with-Express/03-Use-Template-Engines-with-Express/index.js)
 
 
 
