@@ -11,6 +11,7 @@
 
 ## Express
 * [Express应用程序生成器](docs/express/Express应用程序生成器.md)
+* [bodyParser中间件](docs/express/bodyParser中间件.md)
 
 ## 资料
 * [nodemon与supervisor项目自动重启工具](docs/basic/nodemon与supervisor项目自动重启工具.md)
