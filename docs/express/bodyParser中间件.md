@@ -35,6 +35,8 @@ app.post('/api/users', jsonParser, function (req, res) {
 app.listen(3000);
 ```
 
+**bodyParser.urlencoded 模块用于解析req.body的数据，解析成功后覆盖原来的req.body，如果解析失败则为 {}。**
+
 bodyParser.json(options): 解析json数据
 bodyParser.urlencoded(options): 解析我们通常的form表单提交的数据，也就是请求头中包含这样的信息： Content-Type: application/x-www-form-urlencoded
 bodyParser.raw(options): 解析二进制格式(Buffer流数据)
