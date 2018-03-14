@@ -1,6 +1,6 @@
 # Nodejs 学习
 
-## 基础
+## NodeJs基础
 * [REPL](docs/basic/REPL.md)
 * [全局对象和全局变量](docs/basic/全局对象和全局变量.md)
 * [process对象](docs/basic/process对象.md)
