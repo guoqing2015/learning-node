@@ -15,7 +15,7 @@
 * [bodyParser中间件](docs/express/bodyParser中间件.md)
 
 ## 资料
-* [nodemon与supervisor项目自动重启工具](docs/basic/nodemon与supervisor项目自动重启工具.md)
+* [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
 * [MongoDB 安装与配置--Win10](http://blog.csdn.net/yule_czh/article/details/78942448)
 
 ## notes
