@@ -11,6 +11,7 @@
 
 ## Express
 * [Express应用程序生成器](docs/express/Express应用程序生成器.md)
+* [中间件与next](docs/express/中间件与next.md)
 * [bodyParser中间件](docs/express/bodyParser中间件.md)
 
 ## 资料
