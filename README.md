@@ -21,6 +21,7 @@
 
 ## 资料
 * [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
+* [十大 Node.js 的 Web 框架](http://blog.csdn.net/zuochao_2013/article/details/73456646)
 
 ## notes
 1. **Getting Started with Express**
