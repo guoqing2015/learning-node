@@ -4,6 +4,7 @@ var util = require('util');
 http.createServer(function (req, res) {
     var post = '';
     //注册data事件监听函数，每当接受请求体的数据
+    // EventEmitter.prototype.on = EventEmitter.prototype.addListener;
     req.on('data', function (chunk) {
         post += chunk;
     });
