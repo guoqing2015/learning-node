@@ -16,7 +16,6 @@
 
 ## Koa
 * [**Koa2进阶学习笔记**](https://chenshenhai.github.io/koa2-note/)
-* [Koa中间件](docs/koa/Koa中间件.md)
 
 
 ## MongoDB
