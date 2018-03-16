@@ -1,6 +1,7 @@
 # Nodejs 学习
 
 ## NodeJs基础
+* [Node.js APi文档](http://nodejs.cn/api/)
 * [REPL](docs/basic/REPL.md)
 * [全局对象和全局变量](docs/basic/全局对象和全局变量.md)
 * [process对象](docs/basic/process对象.md)
