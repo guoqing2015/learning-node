@@ -28,6 +28,7 @@
 ## 资料
 * [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
 * [Node.js 开发框架比较](https://www.jianshu.com/p/d5c89ee0964d)
+* [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
 ## notes
 1. **Getting Started with Express**
