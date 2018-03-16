@@ -15,7 +15,8 @@
 * [bodyParser中间件](docs/express/bodyParser中间件.md)
 
 ## Koa
-* [**Koa2进阶学习笔记**](https://chenshenhai.github.io/koa2-note/)
+* [**KOA简介 gitbooks**](https://wohugb.gitbooks.io/koajs/content/index.html)
+* [**Koa2进阶学习笔记 gitbooks**](https://chenshenhai.github.io/koa2-note/)
 * [路由与koa-router](https://gaianote.github.io/2017/04/24/koa2%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3_%E8%B7%AF%E7%94%B1%E4%B8%8Ekoa-router/)
 
 
