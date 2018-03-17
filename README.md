@@ -26,6 +26,10 @@
 * [MongoDB 安装与配置--Win10](http://blog.csdn.net/yule_czh/article/details/78942448)
 * [MongoDB基本命令用](https://www.cnblogs.com/wpjzh/p/5999363.html)
 
+## JSON Web Token
+* [JSON Web Token - 在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
+* [基于Token的WEB后台认证机制 ](http://www.cnblogs.com/xiekeli/p/5607107.html)
+
 
 ## 资料
 * [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
