@@ -26,7 +26,7 @@
 * [MongoDB 安装与配置--Win10](http://blog.csdn.net/yule_czh/article/details/78942448)
 * [MongoDB基本命令用](https://www.cnblogs.com/wpjzh/p/5999363.html)
 * [**mongoose中文文档**](https://mongoose.shujuwajue.com/)
-* [**mongoose官方文档**](http://mongoosejs.com/docs/index.html)
+* [**mongoose官方文档**](https://cnodejs.org/topic/504b4924e2b84515770103dd)
 
 ## JSON Web Token
 * [JSON Web Token - 在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
