@@ -3,4 +3,4 @@ code\koa-example\node_modules
 *.idea
 *.bat
 *.sh
-package.lock.json
+package-lock.json
