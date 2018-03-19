@@ -55,7 +55,9 @@ app.use(json())
 
 // app.use(jwt({secret: config.jwt_secret}).unless({path:[/^\/api\/login/, /^\/api\/register/]}))
 
-app.use(logger())
+// app.use(logger())
+
+
 
 /**
  * koa-static: 用于koa的静态文件服务中间件
@@ -118,6 +120,7 @@ app.use(async (ctx, next) => {
   await next()
   const ms = new Date() - start
   console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
+  // console.log('%s %s - %s', ctx.method, ctx.url, ms)
 })
 
 // routes

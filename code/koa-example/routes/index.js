@@ -1,6 +1,9 @@
 const Router = require('koa-router')
 
 const authController = require("../controllers/auth");
+const todolistController = require("../controllers/todolist");
+
+
 
 module.exports = function (app) {
   const router = new Router()
@@ -37,6 +40,16 @@ module.exports = function (app) {
   router.post("/api/register", authController.createUser);
   router.post("/api/login", authController.signIn);
   router.post("/api/userinfo", authController.getUsrInfo);
+
+
+  router.get('/todolist', async (ctx, next) => {
+    await ctx.render('todolist.html')
+  })
+
+  router.get('/api/todolist/:id', todolistController.getTodolist)
+  router.post('/api/todolist', todolistController.createTodolist)
+  router.put('/api/todolist/:userId/:id/:status', todolistController.updateTodolist)
+  router.delete('/api/todolist/:userId/:id', todolistController.removeTodolist)
 
   app.use(router.routes());
 }
