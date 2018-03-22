@@ -11,7 +11,6 @@ const json = require('koa-json')
 //jsonwebtoken在服务端生成token返回给客户端
 const jwt = require('koa-jwt')
 
-
 const onerror = require('koa-onerror')
 
 // 对于POST请求的处理，koa-bodyparser中间件可以把koa2上下文的formData数据解析到ctx.request.body中

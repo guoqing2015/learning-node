@@ -1,5 +1,6 @@
 node_modules
 code\koa-example\node_modules
+code\mysql\node_modules
 *.idea
 *.bat
 *.sh
