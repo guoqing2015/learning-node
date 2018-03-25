@@ -30,7 +30,7 @@
 
 ## mysql
 * [在node中使用mysql](code/mysql-demo/app.js)
-* [在node中使用mysql](docs/mysql/Windows修改MySQL用户root密码)
+* [Windows修改MySQL用户root密码](docs/mysql/Windows修改MySQL用户root密码.md)
 
 ## JSON Web Token
 * [JSON Web Token - 在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
