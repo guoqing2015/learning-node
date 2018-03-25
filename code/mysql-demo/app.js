@@ -14,7 +14,7 @@ app.use(function(req, res, next) {
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '17365367130',
+    password: '123456',
     database: 'nodemysql'
 })
 
