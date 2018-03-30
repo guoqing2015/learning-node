@@ -33,6 +33,7 @@
 * [Windows修改MySQL用户root密码](docs/mysql/Windows修改MySQL用户root密码.md)
 
 ## JSON Web Token
+* [jwt-demo](code/jwt-demo/app.js)
 * [JSON Web Token - 在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
 * [基于Token的WEB后台认证机制 ](http://www.cnblogs.com/xiekeli/p/5607107.html)
 
