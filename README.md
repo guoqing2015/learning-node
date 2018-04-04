@@ -52,7 +52,15 @@
 
 
  2. **Introduction to Node Servers with Hapi.js**
- 	* [01 - Up and running](notes/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
+ 	* [01 - Up and running](notes/Introduction%20to%20Node%20Servers%20with%20Hapi.js/01%20-%20Up%20and%20running/app.js)
+ 	* [02 - Logging with good and good-console](notes/Introduction%20to%20Node%20Servers%20with%20Hapi.js/02%20-%20Logging%20with%20good%20and%20good-console/app.js)
+ 	* [03 - Route parameters](notes/Introduction%20to%20Node%20Servers%20with%20Hapi.js/03%20-%20Route%20parameters/app.js)
+
+
+
+
+
+
 
 
 
