@@ -3,7 +3,7 @@
 const Hapi = require('hapi');
 
 const server = new Hapi.Server({
-    port: 3000,
+    port: 8000,
     host: 'localhost'
 });
 

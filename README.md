@@ -51,4 +51,8 @@
     * [04- Serve static files with express](notes/Getting-Started-with-Express/04-Serve-static-files-with-express/index.js)
 
 
+ 2. **Introduction to Node Servers with Hapi.js**
+ 	* [01 - Up and running](notes/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
+
+
 
