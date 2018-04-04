@@ -15,10 +15,17 @@ server.route({
     }
 });
 
-server.start((err) => {
-
-    if (err) {
-        throw err;
-    }
+const init = async () => {
+    await server.start();
     console.log(`Server running at: ${server.info.uri}`);
-});
+};
+
+init();
+
+// server.start((err) => {
+
+//     if (err) {
+//         throw err;
+//     }
+//     console.log(`Server running at: ${server.info.uri}`);
+// });
