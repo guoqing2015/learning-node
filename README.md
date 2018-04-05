@@ -47,6 +47,8 @@
 
 1. **Node.js -Tutorial**
      * [01 - First Application](tutorial/Node.js%20-Tutorial/01%20-%20First%20Application/server.js)
+     * [02 - Rendering HTML as Response](tutorial/Node.js%20-Tutorial/02%20-%20Rendering%20HTML%20as%20Response/app.js)
+     * [03 - Routing](tutorial/Node.js%20-Tutorial/03%20-%20Routing/app.js)
 
 2. **Getting Started with Express**
     * [01- Create a Basic Server with Express](tutorial/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
