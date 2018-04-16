@@ -1,0 +1,16 @@
+<h1>{{ title }}</h1>
+<p>Welcome to {{ title }}</p>
+{{condition}}
+{{#if condition}}
+  Condition is met
+{{else}}
+  Condition is no met
+{{/if}}
+
+
+
+<ul>
+{{#each anyArray}}
+<li>{{this}}</li>
+{{/each}}
+</ul>
