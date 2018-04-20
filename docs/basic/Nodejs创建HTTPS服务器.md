@@ -74,4 +74,6 @@ server.listen(8000);
 
 
 
-参考：[用Node.js创建自签名的HTTPS服务器](https://cnodejs.org/topic/54745ac22804a0997d38b32d)
+参考：
+- [用Node.js创建自签名的HTTPS服务器](https://cnodejs.org/topic/54745ac22804a0997d38b32d)
+- [How to create an https server?](https://docs.nodejitsu.com/articles/HTTP/servers/how-to-create-a-HTTPS-server/)
