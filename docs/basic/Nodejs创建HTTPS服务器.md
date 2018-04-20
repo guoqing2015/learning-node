@@ -3,7 +3,8 @@
 
 ## 创建自己的CA机构
 
-先安装openssl，(OpenSSL下载)](https://www.openssl.org/source/)
+先安装openssl，(OpenSSL安装、介绍)](https://www.jianshu.com/p/291294ad0ee7)
+
 
 - 为CA生成私钥
 ```sh
@@ -13,7 +14,7 @@ openssl genrsa -out key.pem
 - 通过CA私钥生成CSR
 ```sh
 openssl req -new -key key.pem -out csr.pem
-``
+```
 
 - 通过CSR文件和私钥生成CA证书
 ```sh
@@ -49,6 +50,8 @@ var a = https.createServer(options, function (req, res) {
 ```bash
 curl -k https://localhost:8000
 ```
+
+[demo](../../code/basic/https-server-demo/app.js)
 
 
 
