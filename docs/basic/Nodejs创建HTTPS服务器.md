@@ -2,7 +2,7 @@
 
 ## 创建自己的CA机构
 
-先安装openssl，(OpenSSL安装、介绍)](https://www.jianshu.com/p/291294ad0ee7)
+先安装openssl，[OpenSSL安装、介绍](https://www.jianshu.com/p/291294ad0ee7)
 
 
 - 为CA生成私钥
