@@ -43,7 +43,8 @@ var a = https.createServer(options, function (req, res) {
 ```
 
 然后在浏览器中打开  https://localhost:8000 或者
-```
+
+```bash
 curl -k https://localhost:8000
 ```
 
@@ -70,3 +71,7 @@ server.setSecure(credentials);
 server.addListener("request", handler);
 server.listen(8000);
 ```
+
+
+
+参考：[用Node.js创建自签名的HTTPS服务器](https://cnodejs.org/topic/54745ac22804a0997d38b32d)
