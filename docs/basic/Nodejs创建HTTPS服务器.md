@@ -1,12 +1,25 @@
 # Nodejs创建HTTPS服务器
 
 
-## 生成自签名的证书
+## 创建自己的CA机构
 
-```shell
+- 为CA生成私钥
+```sh
 openssl genrsa -out key.pem
+```
+
+- 通过CA私钥生成CSR
+```sh
 openssl req -new -key key.pem -out csr.pem
+```
+
+- 通过CSR文件和私钥生成CA证书
+```sh
 openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
+```
+
+- 删除csr.pem
+```sh
 rm csr.pem
 ```
 
