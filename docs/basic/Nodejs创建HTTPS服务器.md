@@ -14,7 +14,7 @@ rm csr.pem
 
 ## 创建https服务
 
-```
+```js
 var https = require('https');
 var fs = require('fs');
 
@@ -28,6 +28,14 @@ var a = https.createServer(options, function (req, res) {
   res.end("hello world\n");
 }).listen(8000);
 ```
+
+然后在浏览器中打开  https://localhost:8000 或者
+```
+curl -k https://localhost:8000
+```
+
+
+
 
 ```js
 const crypto = require('crypto'),
