@@ -3,7 +3,7 @@
 
 ## 创建自己的CA机构
 
-先安装openssl，(windows安装](https://blog.csdn.net/houjixin/article/details/25806151)
+先安装openssl，(OpenSSL下载)](https://www.openssl.org/source/)
 
 - 为CA生成私钥
 ```sh
@@ -13,7 +13,7 @@ openssl genrsa -out key.pem
 - 通过CA私钥生成CSR
 ```sh
 openssl req -new -key key.pem -out csr.pem
-```
+``
 
 - 通过CSR文件和私钥生成CA证书
 ```sh
