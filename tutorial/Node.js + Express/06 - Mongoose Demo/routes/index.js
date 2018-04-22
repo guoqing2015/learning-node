@@ -1,11 +1,12 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-mongoose.connect('localhost:27017/mydb');
+mongoose.connect('mongodb://localhost:27017/mydb');
 var Schema = mongoose.Schema;
 
 var userDataSchema = new Schema({
   title: {type: String, required: true},
+  // title: String,
   content: String,
   author: String
 }, {collection: 'user-data'});
