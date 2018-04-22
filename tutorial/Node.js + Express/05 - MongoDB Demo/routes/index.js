@@ -1,16 +1,15 @@
 var express = require('express');
 var router = express.Router();
-var mongoose = require('mongoose');
-mongoose.connect('localhost:27017/mydb');
-var Schema = mongoose.Schema;
+var mongo = require('mongodb').MongoClient;
+var objectId = require('mongodb').ObjectID;
+var assert = require('assert');
+var express = require('express');
+var router = express.Router();
+var mongo = require('mongodb').MongoClient;
+var objectId = require('mongodb').ObjectID;
+var assert = require('assert');
 
-var userDataSchema = new Schema({
-  title: {type: String, required: true},
-  content: String,
-  author: String
-}, {collection: 'user-data'});
-
-var UserData = mongoose.model('UserData', userDataSchema);
+var url = 'mongodb://localhost:27017';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -18,11 +17,21 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/get-data', function(req, res, next) {
-  UserData.find()
-      .then(function(doc) {
-        res.render('index', {items: doc});
-      });
+  var resultArray = [];
+  mongo.connect(url, function(err, db) {
+    assert.equal(null, err);
+    var dbo = db.db("mydb");
+    var cursor = dbo.collection('user-data').find();
+    cursor.forEach(function(doc, err) {
+      assert.equal(null, err);
+      resultArray.push(doc);
+    }, function() {
+      db.close();
+      res.render('index', {items: resultArray});
+    });
+  });
 });
+
 
 router.post('/insert', function(req, res, next) {
   var item = {
@@ -31,31 +40,50 @@ router.post('/insert', function(req, res, next) {
     author: req.body.author
   };
 
-  var data = new UserData(item);
-  data.save();
+  mongo.connect(url, function(err, db) {
+    assert.equal(null, err); // if (err) throw err;
+    var dbo = db.db('mydb')
+    dbo.collection('user-data').insertOne(item, function(err, result) {
+      assert.equal(null, err);
+      console.log('Item inserted');
+      db.close();
+    });
+  });
 
   res.redirect('/');
 });
 
 router.post('/update', function(req, res, next) {
+  var item = {
+    title: req.body.title,
+    content: req.body.content,
+    author: req.body.author
+  };
   var id = req.body.id;
 
-  UserData.findById(id, function(err, doc) {
-    if (err) {
-      console.error('error, no entry found');
-    }
-    doc.title = req.body.title;
-    doc.content = req.body.content;
-    doc.author = req.body.author;
-    doc.save();
-  })
-  res.redirect('/');
+  mongo.connect(url, function(err, db) {
+    assert.equal(null, err);
+    var dbo = db.db('mydb')
+    dbo.collection('user-data').updateOne({"_id": objectId(id)}, {$set: item}, function(err, result) {
+      assert.equal(null, err);
+      console.log('Item updated');
+      db.close();
+    });
+  });
 });
 
 router.post('/delete', function(req, res, next) {
   var id = req.body.id;
-  UserData.findByIdAndRemove(id).exec();
-  res.redirect('/');
+
+  mongo.connect(url, function(err, db) {
+    assert.equal(null, err);
+    var dbo = db.db("mydb");
+    dbo.collection('user-data').deleteOne({"_id": objectId(id)}, function(err, result) {
+      assert.equal(null, err);
+      console.log('Item deleted');
+      db.close();
+    });
+  });
 });
 
 module.exports = router;
