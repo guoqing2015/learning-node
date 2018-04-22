@@ -24,14 +24,17 @@
 
 
 ## MongoDB
+* [**MongoDB的基本使用**](https://www.w3schools.com/nodejs/nodejs_mongodb.asp)
 * [MongoDB 安装与配置--Win10](http://blog.csdn.net/yule_czh/article/details/78942448)
-* [MongoDB的使用](https://www.w3schools.com/nodejs/nodejs_mongodb.asp)
 * [MongoDB基本命令用](https://www.cnblogs.com/wpjzh/p/5999363.html)
+
+## mongoose
 * [**mongoose中文文档**](https://mongoose.shujuwajue.com/)
 * [**mongoose官方文档**](https://cnodejs.org/topic/504b4924e2b84515770103dd)
 
 ## mysql
-* [在node中使用mysql](code/mysql-demo/app.js)
+* [**mysql的基本使用**](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
+* [example: 在node中使用mysql](code/mysql-demo/app.js)
 * [Windows修改MySQL用户root密码](docs/mysql/Windows修改MySQL用户root密码.md)
 
 ## JSON Web Token
