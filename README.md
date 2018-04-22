@@ -47,15 +47,15 @@
 ## Tutorial
 
 1. **Node.js -Tutorial**
-     * [01 - First Application](tutorial/Node.js%20-Tutorial/01%20-%20First%20Application/server.js)
-     * [02 - Rendering HTML as Response](tutorial/Node.js%20-Tutorial/02%20-%20Rendering%20HTML%20as%20Response/app.js)
-     * [03 - Routing](tutorial/Node.js%20-Tutorial/03%20-%20Routing/app.js)
+     * [01 - First Application](tutorial/Node.js%20%2B%20Express/01%20-%20First%20Application/server.js)
+     * [02 - Rendering HTML as Response](tutorial/Node.js%20%2B%20Express/02%20-%20Rendering%20HTML%20as%20Response/app.js)
+     * [03 - Routing](tutorial/Node.js%20%2B%20Express/03%20-%20Routing/app.js)
+     * [03 - Routing](tutorial/Node.js%20%2B%20Express/03%20-%20Routing/app.js)
 
 2. **Getting Started with Express**
     * [01- Create a Basic Server with Express](tutorial/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
     * [02- Define dynamic routes through Express](tutorial/Getting-Started-with-Express/02-Define-dynamic-routes-through-Express/index.js)
     * [03- Use Template Engines with Express](tutorial/Getting-Started-with-Express/03-Use-Template-Engines-with-Express/index.js)
-    * [04- Serve static files with express](tutorial/Getting-Started-with-Express/04-Serve-static-files-with-express/index.js)
 
 
 3. **Introduction to Node Servers with Hapi.js**
