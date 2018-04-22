@@ -1,16 +1,32 @@
 <h1>{{ title }}</h1>
-<p>Welcome to {{ title }}</p>
-{{condition}}
-{{#if condition}}
-  Condition is met
+
+{{#if success}}
+  <section class="success">
+    <h2>Successful Validation!</h2>
+  </section>
 {{else}}
-  Condition is no met
+  {{#if errors}}
+    <section class="errors">
+      <ul>
+        {{#each errors}}
+          <li>{{ this.msg }}</li>
+        {{/each}}
+      </ul>
+    </section>
+  {{/if}}
+  <form action="/submit" method="post">
+    <div class="input">
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email">
+    </div>
+    <div class="input">
+      <label for="password">Pasword</label>
+      <input type="password" name="password" id="password">
+    </div>
+    <div class="input">
+      <label for="confirmPassword">confirm Password</label>
+      <input type="password" name="confirmPassword" id="confirmPassword">
+    </div>
+    <button type="submit">Sign Up</button>
+  </form>
 {{/if}}
-
-
-
-<ul>
-{{#each anyArray}}
-<li>{{this}}</li>
-{{/each}}
-</ul>
