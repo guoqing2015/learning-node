@@ -65,7 +65,15 @@
  * [03- Use Template Engines with Express](tutorial/Getting-Started-with-Express/03-Use-Template-Engines-with-Express/index.js)
 
 ### **Mongoose Basic**
-* []
+* [01 - Connecting to MongoDB](tutorial/Mongoose%20Basic/01%20-%20Connecting%20to%20MongoDB.js)
+* [02 - Models and Collections](tutorial/Mongoose%20Basic/02%20-%20Models%20and%20Collections.js)
+* [03 - Saving Data to MongoDB](tutorial/Mongoose%20Basic/03%20-%20Saving%20Data%20to%20MongoDB.js)
+* [04 - Dropping a Collection](Mongoose%20Basic/04%20-%20Dropping%20a%20Collection.js)
+* [05 - Finding Records](tutorial/Mongoose%20Basic/05%20-%20Finding%20Records.js)
+* [06 - Object ID](tutorial/Mongoose%20Basic/06%20-%20Object%20ID.js)
+* [07 - Deleting Records](tutorial/Mongoose%20Basic/07%20-%20Deleting%20Records.js)
+* [08 - Updating Records](tutorial/Mongoose%20Basic/08%20-%20Updating%20Records.js)
+* [09 - Relational Data](tutorial/Mongoose%20Basic/09%20-%20Relational%20Data.js)
 
 ### **Introduction to Node Servers with Hapi.js**
  	* [01 - Up and running](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/01%20-%20Up%20and%20running/app.js)
