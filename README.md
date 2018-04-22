@@ -56,6 +56,7 @@
     * [03 - Routing](tutorial/Node.js%20%2B%20Express/03%20-%20Routing/app.js)
     * [04 - Express Demo](tutorial/Node.js%20%2B%20Express/04%20-%20Express%20Demo/myapp)
     * [05 - MongoDB Demo](tutorial/Node.js%20%2B%20Express/05%20-%20MongoDB%20Demo/routes/index.js)
+    * [06 - Mongooose Demo](tutorial/Node.js%20%2B%20Express/06%20-%20Mongoose%20Demo/routes/index.js)
 
 2. **Getting Started with Express**
     * [01- Create a Basic Server with Express](tutorial/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
