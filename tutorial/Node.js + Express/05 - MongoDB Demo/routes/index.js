@@ -66,7 +66,8 @@ router.post('/update', function(req, res, next) {
 
   mongo.connect(url, function(err, db) {
     assert.equal(null, err);
-    db.collection('user-data').updateOne({"_id": objectId(id)}, {$set: item}, function(err, result) {
+    var dbo = db.db('mydb')
+    dbo.collection('user-data').updateOne({"_id": objectId(id)}, {$set: item}, function(err, result) {
       assert.equal(null, err);
       console.log('Item updated');
       db.close();
@@ -79,7 +80,8 @@ router.post('/delete', function(req, res, next) {
 
   mongo.connect(url, function(err, db) {
     assert.equal(null, err);
-    db.collection('user-data').deleteOne({"_id": objectId(id)}, function(err, result) {
+    var dbo = db.db("mydb");
+    dbo.collection('user-data').deleteOne({"_id": objectId(id)}, function(err, result) {
       assert.equal(null, err);
       console.log('Item deleted');
       db.close();
