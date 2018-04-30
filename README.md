@@ -36,7 +36,6 @@
 
 ### mysql
 * [**mysql的基本使用**](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
-* [example: 在node中使用mysql](code/mysql-demo/app.js)
 * [Windows修改MySQL用户root密码](docs/mysql/Windows修改MySQL用户root密码.md)
 
 ### JSON Web Token
@@ -52,6 +51,8 @@
 
 ## Code
 * [jwt-demo](code/jwt-demo/app.js)
+* [Creating a REST API with Node.js](/code/Creating%20a%20REST%20API%20with%20Node.js)
+* [在node中使用mysql](code/mysql-demo/app.js)
 
 
 ## Tutorial
