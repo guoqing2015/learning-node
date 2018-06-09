@@ -1,6 +1,6 @@
 # Nodejs 学习
 
-## docs
+## 文档
 
 ### NodeJs
 * [Node.js APi文档](http://nodejs.cn/api/)
@@ -12,6 +12,9 @@
 * [querystring模块](docs/basic/querystring模块.md)
 * [events模块](docs/basic/events模块.md)
 * [Nodejs创建HTTPS服务器](docs/basic/Nodejs创建HTTPS服务器.md)
+* [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
+* [Node.js 开发框架比较](https://www.jianshu.com/p/d5c89ee0964d)
+* [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
 ### Express
 * [Express应用程序生成器](docs/express/Express应用程序生成器.md)
@@ -43,20 +46,16 @@
 * [基于Token的WEB后台认证机制 ](http://www.cnblogs.com/xiekeli/p/5607107.html)
 
 
-### 资料
-* [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
-* [Node.js 开发框架比较](https://www.jianshu.com/p/d5c89ee0964d)
-* [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
 
-## Code
+## 代码
 * [jwt-demo](code/jwt-demo/app.js)
 * [Creating a REST API with Node.js](/code/Creating%20a%20REST%20API%20with%20Node.js)
 * [在node中使用mysql](code/mysql-demo/app.js)
 * [koa-example](code/koa-example/app.js)
 
 
-## Tutorial
+## 教程
 
 ### **Node.js + Express**
 * [01 - First Application](tutorial/Node.js%20%2B%20Express/01%20-%20First%20Application/server.js)
