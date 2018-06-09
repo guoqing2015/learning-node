@@ -45,7 +45,12 @@
 * [JSON Web Token - 在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
 * [基于Token的WEB后台认证机制 ](http://www.cnblogs.com/xiekeli/p/5607107.html)
 
-
+## Redis
+- [Redis 官网](https://redis.io/)
+- [Redis 中文文档](http://www.redis.cn/)
+- [Redis 命令参考](http://redisdoc.com/)
+- [Redis 菜鸟教程](http://www.runoob.com/redis/redis-tutorial.html)
+- [与Redis的交互](http://www.cnblogs.com/zhongweiv/p/node_redis.html)
 
 
 ## 代码
