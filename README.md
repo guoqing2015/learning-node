@@ -1,6 +1,6 @@
 # Nodejs 学习
 
-## 文档
+## docs
 
 ### NodeJs
 * [Node.js APi文档](http://nodejs.cn/api/)
@@ -53,14 +53,14 @@
 - [与Redis的交互](http://www.cnblogs.com/zhongweiv/p/node_redis.html)
 
 
-## 代码
+## code
 * [jwt-demo](code/jwt-demo/app.js)
 * [Creating a REST API with Node.js](/code/Creating%20a%20REST%20API%20with%20Node.js)
 * [在node中使用mysql](code/mysql-demo/app.js)
 * [koa-example](code/koa-example/app.js)
 
 
-## 教程
+## tutorial
 
 ### **Node.js + Express**
 * [01 - First Application](tutorial/Node.js%20%2B%20Express/01%20-%20First%20Application/server.js)
