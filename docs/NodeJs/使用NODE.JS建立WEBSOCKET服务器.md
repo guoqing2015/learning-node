@@ -52,6 +52,32 @@ function socketverify(info) {
 - perMessageDeflate:是否开启deflate压缩。默认为false，要开启的话需要传入一个具有对应参数的对象，详见server文档下面的perMessageDeflate说明
 - maxPayload:最大允许的消息数据字节数。
 
+## 处理连接
+
+```javascript
+ws.on('connection', function(wsocket) {
+    wsocket.on('message',message);
+    wsocket.on('close',close);
+    wsocket.on('error',error);
+    wsocket.on('open',open);
+});
+ 
+function open(){
+    //此链接开启后做些什么
+    // console.log('open');
+}
+
+function message(msg){
+    //对接收到的消息做些什么
+    // console.log('message', msg);
+}
+function error(err){
+    //处理错误
+}
+function close(){
+    //连接关闭时做些什么
+}
+```
 
 
 
