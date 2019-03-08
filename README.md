@@ -41,6 +41,7 @@
 
 ### mysql
 * [**mysql的基本使用**](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
+* [如何启动mysql](https://blog.csdn.net/piaocoder/article/details/50589797)
 * [Windows修改MySQL用户root密码](docs/mysql/Windows修改MySQL用户root密码.md)
 
 ### JSON Web Token
