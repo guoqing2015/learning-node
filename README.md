@@ -42,7 +42,7 @@
 ### mysql
 * [**mysql的基本使用**](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
 * [如何启动mysql](https://blog.csdn.net/piaocoder/article/details/50589797)
-* [Windows修改MySQL用户root密码](docs/mysql/Windows修改MySQL用户root密码.md)
+* [windows下mysql初始密码设置](https://blog.csdn.net/Jiang_Rong_Tao/article/details/52102217)
 
 ### JSON Web Token
 * [JSON Web Token - 在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
