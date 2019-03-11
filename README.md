@@ -41,6 +41,8 @@
 
 ### mysql
 * [**mysql的基本使用**](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
+* [windows10上安装mysql（详细步骤）](https://blog.csdn.net/zhouzezhou/article/details/52446608)
+
 * [如何启动mysql](https://blog.csdn.net/piaocoder/article/details/50589797)
 * [windows下mysql初始密码设置](https://blog.csdn.net/Jiang_Rong_Tao/article/details/52102217)
 
