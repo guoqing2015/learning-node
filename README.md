@@ -17,6 +17,8 @@
 * [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
 * [Node.js 开发框架比较](https://www.jianshu.com/p/d5c89ee0964d)
 * [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+* [Web开发中常见的认证机制](https://segmentfault.com/a/1190000008676243)
+
 
 ### Express
 * [Express应用程序生成器](docs/express/Express应用程序生成器.md)
