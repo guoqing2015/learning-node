@@ -32,6 +32,7 @@
 * [用Koa 2搭建服务器](http://mobilesite.github.io/2017/04/29/develop-backend-service-with-koa2/)
 * [koa2 使用passport权限认证中间件](https://segmentfault.com/a/1190000011557953)
 * [koa-passport学习笔记](https://segmentfault.com/a/1190000013060327)
+* [node.js 应答跨域请求实现 （以koa2-cors为例）](https://www.jianshu.com/p/5b3acded5182)
 
 
 ### MongoDB
