@@ -44,12 +44,7 @@
 * [**mongoose中文文档**](https://mongoose.shujuwajue.com/)
 * [**mongoose官方文档**](https://cnodejs.org/topic/504b4924e2b84515770103dd)
 
-### mysql
-* [**mysql的基本使用**](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
-* [Windows上安装MySQL](https://blog.csdn.net/u013235478/article/details/50623693)
-* [windows10上安装mysql（详细步骤）](https://blog.csdn.net/zhouzezhou/article/details/52446608)
-* [如何启动mysql](https://blog.csdn.net/piaocoder/article/details/50589797)
-* [windows下mysql初始密码设置](https://blog.csdn.net/Jiang_Rong_Tao/article/details/52102217)
+
 
 ### JSON Web Token
 * [JSON Web Token - 在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
