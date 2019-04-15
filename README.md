@@ -60,6 +60,10 @@
 
 - [与Redis的交互](http://www.cnblogs.com/zhongweiv/p/node_redis.html)
 
+### 阿里云
+- [Xshell登录阿里云服务器ECS](https://blog.csdn.net/u013894429/article/details/78811823)
+
+
 
 ## code
 * [nodejs-upload-demo](code/basic/nodejs-upload-demo/app.js)
