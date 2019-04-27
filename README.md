@@ -15,7 +15,7 @@
 * [node.js之fs模块](https://www.jianshu.com/p/5683c8a93511)
 
 * [Nodejs创建HTTPS服务器](docs/basic/Nodejs创建HTTPS服务器.md)
-* [NPM酷库：glob，通配符匹配文件名](https://segmentfault.com/a/1190000012743700)
+* [Node glob语法](https://github.com/isLishude/blog/issues/63)
 * [使用NODE.JS建立WEBSOCKET服务器](docs/NodeJs/使用NODE.JS建立WEBSOCKET服务器.md)
 * [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
 * [Node.js 开发框架比较](https://www.jianshu.com/p/d5c89ee0964d)
