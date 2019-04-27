@@ -22,6 +22,7 @@
 * [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 * [Web开发中常见的认证机制](https://segmentfault.com/a/1190000008676243)
 * [Nodejs技巧之----Joi数据校验](https://www.jianshu.com/p/e6e277c1fda2)
+* [Nodejs在 VS Code中调试](https://github.com/nswbmw/node-in-debugging/blob/master/4.3%20Visual%20Studio%20Code.md)
 
 
 ### Express
