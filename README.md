@@ -6,6 +6,7 @@
 * [Node.js APi文档](http://nodejs.cn/api/)
 * [REPL](docs/basic/REPL.md)
 * [全局对象和全局变量](docs/basic/全局对象和全局变量.md)
+* [path模块](https://www.cnblogs.com/chyingp/p/node-learning-guide-path.html)
 * [process对象](docs/basic/process对象.md)
 * [http模块](docs/basic/http模块.md)
 * [url模块](docs/basic/url模块.md)
