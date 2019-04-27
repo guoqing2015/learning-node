@@ -12,6 +12,7 @@
 * [querystring模块](docs/basic/querystring模块.md)
 * [events模块](docs/basic/events模块.md)
 * [cluster模块](http://www.alloyteam.com/2015/08/nodejs-cluster-tutorial/)
+* [node.js之fs模块](https://www.jianshu.com/p/5683c8a93511)
 * [Nodejs创建HTTPS服务器](docs/basic/Nodejs创建HTTPS服务器.md)
 * [使用NODE.JS建立WEBSOCKET服务器](docs/NodeJs/使用NODE.JS建立WEBSOCKET服务器.md)
 * [nodemon与supervisor项目自动重启工具](docs/notes/nodemon与supervisor项目自动重启工具.md)
