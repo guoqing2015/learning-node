@@ -31,8 +31,8 @@
 * [bodyParser中间件](docs/express/bodyParser中间件.md)
 
 ### Koa
-* [**KOA简介 gitbooks**](https://wohugb.gitbooks.io/koajs/content/index.html)
-* [**Koa2进阶学习笔记 gitbooks**](https://chenshenhai.github.io/koa2-note/)
+* [KOA简介 gitbooks](https://wohugb.gitbooks.io/koajs/content/index.html)
+* [Koa2进阶学习笔记 gitbooks](https://chenshenhai.github.io/koa2-note/)
 * [路由与koa-router](https://gaianote.github.io/2017/04/24/koa2%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B3_%E8%B7%AF%E7%94%B1%E4%B8%8Ekoa-router/)
 * [用Koa 2搭建服务器](http://mobilesite.github.io/2017/04/29/develop-backend-service-with-koa2/)
 * [koa2 使用passport权限认证中间件](https://segmentfault.com/a/1190000011557953)
@@ -41,7 +41,7 @@
 
 
 ### mysql
-* [**mysql命令**](https://juejin.im/post/5ae55861f265da0ba062ec71)
+* [mysql命令](https://juejin.im/post/5ae55861f265da0ba062ec71)
 * [MySQL数据类型](https://github.com/jaywcjlove/handbook/blob/master/MySQL/MySQL%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
 * [mysql的基本使用](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
 * [Node 连接 MySQL](https://www.jianshu.com/p/cfa013bbcabb)
@@ -57,13 +57,13 @@
 
 
 ### MongoDB
-* [**MongoDB的基本使用**](https://www.w3schools.com/nodejs/nodejs_mongodb.asp)
+* [MongoDB的基本使用](https://www.w3schools.com/nodejs/nodejs_mongodb.asp)
 * [MongoDB 安装与配置--Win10](http://blog.csdn.net/yule_czh/article/details/78942448)
 * [MongoDB基本命令用](https://www.cnblogs.com/wpjzh/p/5999363.html)
 
 ### mongoose
-* [**mongoose中文文档**](https://mongoose.shujuwajue.com/)
-* [**mongoose官方文档**](https://cnodejs.org/topic/504b4924e2b84515770103dd)
+* [mongoose中文文档](https://mongoose.shujuwajue.com/)
+* [mongoose官方文档](https://cnodejs.org/topic/504b4924e2b84515770103dd)
 
 
 
