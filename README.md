@@ -48,6 +48,7 @@
 * [Node 连接 MySQL](https://www.jianshu.com/p/cfa013bbcabb)
 * [windows下mysql初始密码设置](https://blog.csdn.net/Jiang_Rong_Tao/article/details/52102217)
 * [一对一，一对多，多对多](https://blog.csdn.net/qi1840439776/article/details/78233398)
+* [MySQL · 最佳实践 · 分区表基本类型](http://mysql.taobao.org/monthly/2017/11/09/)
 * [MySql表分区——partition](https://segmentfault.com/a/1190000009724052)
 * [常见电商项目的数据库表设计（MySQL版）](https://www.jianshu.com/p/b89127a415df)
 
