@@ -40,6 +40,22 @@
 * [node.js 应答跨域请求实现 （以koa2-cors为例）](https://www.jianshu.com/p/5b3acded5182)
 
 
+### mysql
+* [**mysql命令**](https://juejin.im/post/5ae55861f265da0ba062ec71)
+* [MySQL数据类型](https://github.com/jaywcjlove/handbook/blob/master/MySQL/MySQL%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
+* [mysql的基本使用](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
+* [Node 连接 MySQL](https://www.jianshu.com/p/cfa013bbcabb)
+* [windows下mysql初始密码设置](https://blog.csdn.net/Jiang_Rong_Tao/article/details/52102217)
+* [一对一，一对多，多对多](https://blog.csdn.net/qi1840439776/article/details/78233398)
+* [MySql表分区——partition](https://segmentfault.com/a/1190000009724052)
+* [常见电商项目的数据库表设计（MySQL版）](https://www.jianshu.com/p/b89127a415df)
+
+
+### sequelize
+* [Sequelize 中文API文档](https://demopark.github.io/sequelize-docs-Zh-CN/)
+* [Migrations - 迁移](https://demopark.github.io/sequelize-docs-Zh-CN/migrations.html)
+
+
 ### MongoDB
 * [**MongoDB的基本使用**](https://www.w3schools.com/nodejs/nodejs_mongodb.asp)
 * [MongoDB 安装与配置--Win10](http://blog.csdn.net/yule_czh/article/details/78942448)
