@@ -43,6 +43,7 @@
 ### mysql
 * [mysql命令](https://juejin.im/post/5ae55861f265da0ba062ec71)
 * [MySQL数据类型](https://github.com/jaywcjlove/handbook/blob/master/MySQL/MySQL%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
+* [MYSQL数据库设计规范与原则](https://bbs.aliyun.com/read/534385.html?spm=a2c4e.11155515.0.0.14401fd24VGZ9R)
 * [mysql的基本使用](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
 * [Node 连接 MySQL](https://www.jianshu.com/p/cfa013bbcabb)
 * [windows下mysql初始密码设置](https://blog.csdn.net/Jiang_Rong_Tao/article/details/52102217)
