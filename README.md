@@ -52,6 +52,7 @@
 * [MySql表分区——partition](https://segmentfault.com/a/1190000009724052)
 * [常见电商项目的数据库表设计（MySQL版）](https://www.jianshu.com/p/b89127a415df)
 * [mysql中函数CONCAT及GROUP_CONCAT的使用](https://segmentfault.com/a/1190000004844113)
+* [图解MySQL 内连接、外连接、左连接、右连接、全连接](https://blog.csdn.net/plg17/article/details/78758593)
 
 
 ### sequelize
