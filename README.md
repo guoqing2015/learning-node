@@ -51,6 +51,7 @@
 * [MySQL · 最佳实践 · 分区表基本类型](http://mysql.taobao.org/monthly/2017/11/09/)
 * [MySql表分区——partition](https://segmentfault.com/a/1190000009724052)
 * [常见电商项目的数据库表设计（MySQL版）](https://www.jianshu.com/p/b89127a415df)
+* [mysql中函数CONCAT及GROUP_CONCAT的使用](https://segmentfault.com/a/1190000004844113)
 
 
 ### sequelize
