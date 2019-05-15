@@ -76,6 +76,7 @@
 * [基于Token的WEB后台认证机制 ](http://www.cnblogs.com/xiekeli/p/5607107.html)
 
 ### Redis
+- [Linux下redis安装和部署](https://www.jianshu.com/p/bc84b2b71c1c)
 - [**Redis 学习教程**](https://piaosanlang.gitbooks.io/redis/)
 - [Redis 官网](https://redis.io/)
 - [Redis 中文文档](http://www.redis.cn/)
