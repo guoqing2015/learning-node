@@ -55,6 +55,7 @@
 * [图解MySQL 内连接、外连接、左连接、右连接、全连接](https://blog.csdn.net/plg17/article/details/78758593)
 * [MySQL - exists与in及any的用法](https://blog.csdn.net/J080624/article/details/72910548)
 * [MySQL查询语句中的IN 和Exists 对比分析](https://blog.51cto.com/andrewli/2120928)
+* [select case when if 的一些用法](https://www.cnblogs.com/martinzhang/p/3220595.html)
 
 
 ### sequelize
