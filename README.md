@@ -88,6 +88,7 @@
 
 ### 安全
 - [浅谈CSRF攻击方式](https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html)
+- [Node.js防范csrf攻击](https://www.jianshu.com/p/b9015484585d)
 
 ### 阿里云
 - [Xshell登录阿里云服务器ECS](https://blog.csdn.net/u013894429/article/details/78811823)
