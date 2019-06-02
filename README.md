@@ -38,6 +38,7 @@
 * [koa2 使用passport权限认证中间件](https://segmentfault.com/a/1190000011557953)
 * [koa-passport学习笔记](https://segmentfault.com/a/1190000013060327)
 * [node.js 应答跨域请求实现 （以koa2-cors为例）](https://www.jianshu.com/p/5b3acded5182)
+* [从koa-session源码解读session原理](https://juejin.im/post/5c148fd551882530544f341f#heading-15)
 
 
 ### mysql
