@@ -99,8 +99,9 @@
 ### 阿里云
 - [Xshell登录阿里云服务器ECS](https://blog.csdn.net/u013894429/article/details/78811823)
 
-###Linux
+### Linux
 [在 Linux 服务器上安装 Nodejs、Nginx 以及部署 Web 应用](https://www.jianshu.com/p/ee935729f49c)
+-[CentOS 7 下安装 Nginx](https://www.linuxidc.com/Linux/2016-09/134907.htm)
 
 
 
