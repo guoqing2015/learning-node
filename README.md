@@ -40,9 +40,9 @@
 * [node.js 应答跨域请求实现 （以koa2-cors为例）](https://www.jianshu.com/p/5b3acded5182)
 * [从koa-session源码解读session原理](https://juejin.im/post/5c148fd551882530544f341f#heading-15)
 
-### egg
+### eggjs
 * [Egg上手-框架内置基础对象](https://www.jianshu.com/p/c4486402c936)
-
+* [egg与alinode的整合实践](https://segmentfault.com/a/1190000013050816)
 
 ### mysql
 * [mysql命令](https://juejin.im/post/5ae55861f265da0ba062ec71)
