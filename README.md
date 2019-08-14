@@ -105,7 +105,8 @@
 - [在 Linux 服务器上安装 Nodejs、Nginx 以及部署 Web 应用](https://www.jianshu.com/p/ee935729f49c)
 - [CentOS 7 下安装 Nginx](https://www.linuxidc.com/Linux/2016-09/134907.htm)
 - [使用Nginx + Node.js部署你的网站](https://www.jianshu.com/p/717f2b88d057)
-- [Linux下安装MySQL](https://www.jianshu.com/p/f4a98a905011)
+- [Linux下安装MySQL5.7版本](https://segmentfault.com/a/1190000012703513)
+- [Linux下安装MySQL5.6版本](https://www.jianshu.com/p/f4a98a905011)
 
 
 
