@@ -46,6 +46,8 @@
 * [egg与alinode的整合实践](https://segmentfault.com/a/1190000013050816)
 
 ### mysql
+* [MySQL入门教程（MySQL tutorial book）](https://github.com/jaywcjlove/mysql-tutorial)
+* [MySQL的my.ini配置](https://github.com/jaywcjlove/mysql-tutorial/blob/master/chapter2/2.5.md)
 * [mysql命令](https://juejin.im/post/5ae55861f265da0ba062ec71)
 * [MySQL数据类型](https://github.com/jaywcjlove/handbook/blob/master/MySQL/MySQL%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
 * [MYSQL数据库设计规范与原则](https://bbs.aliyun.com/read/534385.html?spm=a2c4e.11155515.0.0.14401fd24VGZ9R)
@@ -150,6 +152,15 @@
 * [01 - Up and running](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/01%20-%20Up%20and%20running/app.js)
 * [02 - Logging with good and good-console](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/02%20-%20Logging%20with%20good%20and%20good-console/app.js)
 * [03 - Route parameters](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/03%20-%20Route%20parameters/app.js)
+
+
+### **Mysql数据库的优化技术**
+* [01 - 关键技术.md](mysql/Mysql优化/01%20-%20关键技术.md)
+* [02 - 表的设计.md](mysql/Mysql优化/02%20-%20表的设计.md)
+
+
+
+
 
 
 
