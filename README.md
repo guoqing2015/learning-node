@@ -154,6 +154,10 @@
 * [03 - Route parameters](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/03%20-%20Route%20parameters/app.js)
 
 
+
+### **MySQL高级进阶视频教程**
+* [01 - mysql编码设定.md](mysql/MySQL高级进阶视频教程/01%20-%20mysql编码设定.md)
+
 ### **Mysql数据库的优化技术**
 * [01 - 关键技术.md](mysql/Mysql优化/01%20-%20关键技术.md)
 * [02 - 表的设计.md](mysql/Mysql优化/02%20-%20表的设计.md)

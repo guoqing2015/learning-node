@@ -1,19 +1,8 @@
 # 01 - mysql编码设定
 
 
-使用`show create table table_name;`, 可查看创建该表的sql语句，
 
-如：
-```mysql
-CREATE TABLE `tb_users` (
-  `user_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '表id',
-  `sex` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '0 保密 1 男 2 女',
-  `birthday` int(11) NOT NULL DEFAULT '0' COMMENT '生日',
-  `nickname` varchar(50) CHARACTER SET utf8mb4 DEFAULT NULL COMMENT '第三方返回昵称',
-  PRIMARY KEY (`user_id`)
-)  AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
-```
-
+## 服务器编码设定
 
 使用`show variables like 'char%';`，可查看字符集
 
@@ -42,4 +31,33 @@ CREATE TABLE `tb_users` (
 `character_set_system`：这个值总是utf8，不需要设置，是为存储系统元数据的字符集
 
 
- 使用命令`set names 'uft8';`可将 character_set_client，character_set_connection，character_set_results的编码格式全改成utf8；            
+ 使用命令`set names 'uft8';`可将 character_set_client，character_set_connection，character_set_results的编码格式全改成utf8，只针对当前连接有效。修改`my.ini`配置（长久有效）           
+
+
+## 数据库表的编码设定
+
+使用`show create table table_name;`, 可查看创建该表的sql语句，
+
+如：
+```mysql
+CREATE TABLE `tb_users` (
+  `user_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '表id',
+  `sex` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '0 保密 1 男 2 女',
+  `birthday` int(11) NOT NULL DEFAULT '0' COMMENT '生日',
+  `nickname` varchar(50) CHARACTER SET utf8mb4 DEFAULT NULL COMMENT '第三方返回昵称',
+  PRIMARY KEY (`user_id`)
+)  AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
+```
+
+`alter table table_name character set uft8; ` -> 修改表的编码
+`alter table table_name column_name column_name varchat(20) character set utf8 not null; ` -> 修改数据列的编码
+
+
+**解决多张拥有数据的表的字符编码问题**
+在管理员命令窗口执行以下命令
+
+1. 导出表 `mysqldump -uroot -p --default-character-set=utf8 -d database_name1 > /Users/guoqing/desktop/cc.sql`
+2. 导出数据  `mysqldump -uroot -p --quick --no-create-info  --extended-insert --default-character-set=utf8 database_name1 > /Users/guoqing/desktop/data.sql`, 在导出的 data.sql 文件最顶部加上 `set names utf8; `
+3. 重新建数据库 `create database database_name2 default charset utf8;`
+4. 导入表  `mysql -uroot -p database_name2 < /Users/guoqing/desktop/cc.sql`
+5. 导入数据  `mysql -uroot -p database_name2 < /Users/guoqing/desktop/data.sql`
