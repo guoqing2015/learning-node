@@ -20,7 +20,7 @@ CREATE TABLE `tb_users` (
 ```
 +--------------------------+--------------------------------------------------------+
 | Variable_name            | Value                                                  |
-+--------------------------+--------------------------------------------------------+
++--------------------------·+--------------------------------------------------------+
 | character_set_client     | utf8mb4                                                |
 | character_set_connection | utf8mb4                                                |
 | character_set_database   | utf8                                                   |
@@ -42,4 +42,4 @@ CREATE TABLE `tb_users` (
 `character_set_system`：这个值总是utf8，不需要设置，是为存储系统元数据的字符集
 
 
- 使用命令`set names 'uft8';`可将 character_set_client，character_set_connection，character_set_results的值全改成utf8；            
+ 使用命令`set names 'uft8';`可将 character_set_client，character_set_connection，character_set_results的编码格式全改成utf8；            
