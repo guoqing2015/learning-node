@@ -1,0 +1,28 @@
+    <h3>测试api：login</h3>
+    <form id="login" action="/api/login" method="post">
+        <label for="username">用户名：</label>
+        <input type="text" name="username" id="username">
+        <label for="passwd">密码：</label>
+        <input type="password" name="password" id="password">
+        <input type="submit" value="提交">
+    </form>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script>
+        $(function(){
+            $('#login').submit(function(){
+                $.post({
+                    url:'/api/login',
+                    data: $(this).serializeArray(),
+                    success: function(data){
+                        console.log('succes: '+ JSON.stringify(data));
+                        if(data.code == 200){
+                             sessionStorage.setItem('token', data.token)
+                        }else{
+                            alert(data.message);
+                        }
+                    }
+                })
+                return false;
+            })
+        })
+    </script>

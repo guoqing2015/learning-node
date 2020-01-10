@@ -1,0 +1,73 @@
+    
+<h3>当前用户</h3>
+<input type="text" id="user_id" value="1" placeholder="用户id" />
+    
+    <hr>
+    <h3>todolist 创建</h3>
+    <form id="create" method="post">
+        <label for="username">content：</label>
+        <input type="text" name="content" id="content">
+        <label for="passwd">status：</label>
+        <input type="text" name="status" id="status">
+        <input type="submit" value="创建">
+    </form>
+    <hr>
+
+    <h3>todolist 获取所有列表</h3>
+    <button id="getTodolist">获取</button>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>user_id</th>
+            <th>content</th>
+            <th>status</th>
+        </tr>
+        <td>
+
+        </td>
+    </table>
+
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+
+
+    <script>
+        $(function(){
+            $('#create').submit(function(e){
+                e.preventDefault()
+                $.post({
+                    url:'/api/todolist',
+                    data: {
+                        content: $("#content").val(),
+                        status: $("#status").val(),
+                        user_id: $("#user_id").val()
+                    },
+                    success: function(data){
+                        console.log('succes: '+ JSON.stringify(data));
+                        if(data.code == 200){
+                        }else{
+                            alert(data.message);
+                        }
+                        
+                    }
+                })
+                return false;
+            })
+
+
+            $("#getTodolist").bind("click", function() {
+                $.get({
+                    url:'/api/todolist',
+                    data: {
+                        user_id: $("#user_id").val()
+                    },
+                    success: function(data){
+                        console.log('succes: '+ JSON.stringify(data));
+                        if(data.code == 200){
+                        }else{
+                            alert(data.message);
+                        }
+                    }
+                })
+            })
+        })
+    </script>
