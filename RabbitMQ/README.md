@@ -3,12 +3,12 @@
 
 ## docs
 
-* [RabbitMQ研究讲义](./跟传智燕青一起学RabbitMQ消息队列/RabbitMQ研究讲义.pdf)
+* [RabbitMQ研究讲义](./docs/跟传智燕青一起学RabbitMQ消息队列/RabbitMQ研究讲义.pdf)
 
 
 ## code
 
-* [rabbitmq-demo](./rabbitmq-demo/README.md)
+* [rabbitmq-demo](./code/rabbitmq-demo/README.md)
 
 
 
