@@ -9,7 +9,7 @@
 
 ## code
 
-* [RabbitMQ-demo](./RabbitMQ-demo/README.md)
+* [rabbmitmq-demo](./rabbmitmq-demo/README.md)
 
 
 
