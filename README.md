@@ -128,7 +128,10 @@
 * [在node中使用mysql](code/mysql-demo/app.js)
 
 
-## tutorial
+
+
+
+## NodeJS
 
 ### **Node.js + Express**
 * [01 - First Application](tutorial/Node.js%20%2B%20Express/01%20-%20First%20Application/server.js)
@@ -138,10 +141,25 @@
 * [05 - MongoDB Demo](tutorial/Node.js%20%2B%20Express/05%20-%20MongoDB%20Demo/routes/index.js)
 * [06 - Mongooose Demo](tutorial/Node.js%20%2B%20Express/06%20-%20Mongoose%20Demo/routes/index.js)
 
+
+
 ### **Getting Started with Express**
 * [01- Create a Basic Server with Express](tutorial/Getting-Started-with-Express/01-Create-a-Basic-Server-with-Express/index.js)
 * [02- Define dynamic routes through Express](tutorial/Getting-Started-with-Express/02-Define-dynamic-routes-through-Express/index.js)
 * [03- Use Template Engines with Express](tutorial/Getting-Started-with-Express/03-Use-Template-Engines-with-Express/index.js)
+
+
+
+### **Introduction to Node Servers with Hapi.js**
+* [01 - Up and running](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/01%20-%20Up%20and%20running/app.js)
+* [02 - Logging with good and good-console](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/02%20-%20Logging%20with%20good%20and%20good-console/app.js)
+* [03 - Route parameters](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/03%20-%20Route%20parameters/app.js)
+
+
+
+
+
+## MongoDB
 
 ### **Mongoose Basic**
 * [01 - Connecting to MongoDB](tutorial/Mongoose%20Basic/01%20-%20Connecting%20to%20MongoDB.js)
@@ -154,11 +172,9 @@
 * [08 - Updating Records](tutorial/Mongoose%20Basic/08%20-%20Updating%20Records.js)
 * [09 - Relational Data](tutorial/Mongoose%20Basic/09%20-%20Relational%20Data.js)
 
-### **Introduction to Node Servers with Hapi.js**
-* [01 - Up and running](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/01%20-%20Up%20and%20running/app.js)
-* [02 - Logging with good and good-console](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/02%20-%20Logging%20with%20good%20and%20good-console/app.js)
-* [03 - Route parameters](tutorial/Introduction%20to%20Node%20Servers%20with%20Hapi.js/03%20-%20Route%20parameters/app.js)
 
+
+## Mysql
 
 
 ### **MySQL高级进阶视频教程**
@@ -177,6 +193,7 @@
 * [13 - 表的分区.md](mysql/MySQL高级进阶视频教程/13%20-%20表的分区.md)
 * [14 - mysql的内存优化.md](mysql/MySQL高级进阶视频教程/14%20-%20mysql的内存优化.md)
 * [15 - mysql应用优化.md](mysql/MySQL高级进阶视频教程/15%20-%20mysql应用优化.md)
+* [16 - mysql的账号权限.md](mysql/MySQL高级进阶视频教程/15%20-%20mysql的账号权限.md)
 
 ### **Mysql数据库的优化技术**
 * [01 - 关键技术.md](mysql/Mysql优化/01%20-%20关键技术.md)
@@ -184,6 +201,12 @@
 
 
 
+## RabbitMQ
+
+
+### 跟传智燕青一起学RabbitMQ消息队列
+
+* [RabbitMQ研究讲义](RabbmitMQ/跟传智燕青一起学RabbitMQ消息队列/RabbitMQ研究讲义.pdf)
 
 
 

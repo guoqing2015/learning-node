@@ -69,4 +69,5 @@ query_cache_type=`0`时表示关闭，`1`时表示打开，`2`表示只要select
 
 　　也就是说缓存的命中率为 Qcache_hits/(Qcache_hits+Qcache_inserts)
 
-## 使用负载均衡
+
+## 读写分离
