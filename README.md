@@ -90,6 +90,8 @@
 * [JSON Web Token - 在Web应用间安全地传递信息](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
 * [基于Token的WEB后台认证机制 ](http://www.cnblogs.com/xiekeli/p/5607107.html)
 
+
+
 ### Redis
 
 - [**Redis 学习教程**](https://piaosanlang.gitbooks.io/redis/)
@@ -203,10 +205,7 @@
 
 ## RabbitMQ
 
-
-### 跟传智燕青一起学RabbitMQ消息队列
-
-* [RabbitMQ研究讲义](RabbmitMQ/跟传智燕青一起学RabbitMQ消息队列/RabbitMQ研究讲义.pdf)
+* [RabbitMQ](RabbitMQ/README.md)
 
 
 
