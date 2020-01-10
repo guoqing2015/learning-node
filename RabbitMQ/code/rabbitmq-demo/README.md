@@ -27,29 +27,33 @@ To install `amqp.node` using npm:
     node src/receive.js
 
 
-[Tutorial two: Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-javascript.html):
+[Tutorial two: Wo rk Queues 工作队列](https://www.rabbitmq.com/tutorials/tutorial-two-javascript.html):
 
     node src/new_task.js "A very hard task which takes two seconds.."
     node src/worker.js
 
 
-[Tutorial three: Publish/Subscribe](https://www.rabbitmq.com/tutorials/tutorial-three-javascript.html)
+[Tutorial three: Publish/Subscribe 发布订阅](https://www.rabbitmq.com/tutorials/tutorial-three-javascript.html)
 
     node src/receive_logs.js
     node src/emit_log.js "info: This is the log message"
 
-[Tutorial four: Routing](https://www.rabbitmq.com/tutorials/tutorial-four-javascript.html):
+[Tutorial four: Routing 路由](https://www.rabbitmq.com/tutorials/tutorial-four-javascript.html):
 
     node src/receive_logs_direct.js info
     node src/emit_log_direct.js info "The message"
 
 
-[Tutorial five: Topics](https://www.rabbitmq.com/tutorials/tutorial-five-javascript.html):
+[Tutorial five: Topics 通配符](https://www.rabbitmq.com/tutorials/tutorial-five-javascript.html):
 
     node src/receive_logs_topic.js "*.rabbit"
     node src/emit_log_topic.js red.rabbit Hello
 
-[Tutorial six: RPC](https://www.rabbitmq.com/tutorials/tutorial-six-javascript.html):
+
+[Tutorial six: RPC 远程过程调用](https://www.rabbitmq.com/tutorials/tutorial-six-javascript.html):
 
     node src/rpc_server.js
     node src/rpc_client.js 30
+
+
+seven Header Header转发器
