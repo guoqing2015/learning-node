@@ -118,3 +118,7 @@ redis 127.0.0.1:6379[2]> get cc
 11. `persist key`
 
 作用: 把指定key置为永久有效
+
+
+12. `flushdb`
+清空数据库

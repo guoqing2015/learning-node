@@ -40,17 +40,17 @@
 
 此时在 usr/local/redis/bin 目录下，有以下：
 
-`redis-benchmark` redis性能测试工具
+**redis-benchmark** redis性能测试工具
 
-`redis-check-aof` AOF文件修复工具
+**redis-check-aof** AOF文件修复工具
 
-`redis-check-rdb` RDB文件修复工具
+**redis-check-rdb** RDB文件修复工具
 
-`redis-cli` redis命令行客户端
+**redis-cli** redis命令行客户端
 
-`redis-sentinal` redis集群管理工具
+**redis-sentinal** redis集群管理工具
 
-`redis-server` redis服务进程
+**redis-server** redis服务进程
 
 4. 可选步骤: `make test`  测试编译情况
 
@@ -64,15 +64,16 @@
 
 修改redis.conf配置文件， daemonize yes 以后端模式启动
 
-`vim /usr/local/redis/bin/redis.conf`
-
-`daemonize yes`
+```
+vim /usr/local/redis/bin/redis.conf
+daemonize yes
+```
 
 7. 启动redis
 
-`cd /usr/local/redis`
-
-`./bin/redis-server ./redis.conf`
+```cd /usr/local/redis
+./bin/redis-server ./redis.conf
+```
 
 8. 连接redis
 
@@ -80,9 +81,10 @@
 
 9. 关闭redis
 
-`cd /usr/local/redis`
-
-`./bin/redis-cli shutdown`
+```
+cd /usr/local/redis
+./bin/redis-cli shutdown
+```
 
 10. 强行终止redis
 
