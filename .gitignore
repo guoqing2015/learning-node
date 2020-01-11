@@ -4,3 +4,4 @@ code\mysql\node_modules
 *.idea
 *.sh
 package-lock.json
+.DS_store
