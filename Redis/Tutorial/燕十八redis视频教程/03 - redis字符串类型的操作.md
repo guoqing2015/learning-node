@@ -8,24 +8,23 @@ Set a 1 px 9000  , 9秒有效
 注: 如果ex,px同时写,以后面的有效期为准  
 如 set a 1 ex 100 px 9000, 实际有效期是9000毫秒
 
-
-
-nx: 表示key不存在时,执行操作
-
+nx: 表示key不存在时,执行操作  
 xx: 表示key存在时,执行操作
 
+2. `mset  multi set`
 
-mset  multi set , 一次性设置多个键值
+一次性设置多个键值  
 例: mset key1 v1 key2 v2 ....
 
-get key 
+3. `get key`
 作用:获取key的值
 
-mget key1 key2 ..keyn
+4. `mget key1 key2 ..keyn`
 作用:获取多个key的值
 
 
-setrange key offset value
+5. setrange key offset value`
+
 作用:把字符串的offset偏移字节,改成value
 redis 127.0.0.1:6379> set greet hello
 OK

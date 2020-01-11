@@ -48,24 +48,20 @@ redis 127.0.0.1:6379> keys on[eaw]
 
 5. `del key1 key2 ... Keyn`
 
-作用: 删除1个或多个键
-
+作用: 删除1个或多个键  
 返回值: 不存在的key忽略掉,返回真正删除的key的数量
 
 
 6. `rename key newkey`
 
-作用: 给key赋一个新的key名
-
+作用: 给key赋一个新的key名  
 注:如果newkey已存在,则newkey的原值被覆盖
 
 
 7. `renamenx key newkey`
 
-作用: 把key改名为newkey
-
-返回: 发生修改返回1,未发生修改返回0
-
+作用: 把key改名为newkey  
+返回: 发生修改返回1,未发生修改返回0  
 注: nx--> not exists, 即, newkey不存在时,作改名动作
 
 
@@ -99,19 +95,17 @@ redis 127.0.0.1:6379[2]> get cc
 
 9. `ttl key `
 
-作用: 查询key的生命周期
-
-返回: 秒数
-
+作用: 查询key的生命周期  
+返回: 秒数  
 注:对于不过期的key，返回-1, 不存在的key，返回-2
 
 `pttl  key`, 以毫秒返回生命周期
 
 
 10. `expire key 整型值`
-作用: 设置key的生命周期,以秒为单位
 
-同理: 
+作用: 设置key的生命周期,以秒为单位  
+同理:   
 `pexpire key 毫秒数`, 设置生命周期
 
 
