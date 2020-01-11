@@ -93,31 +93,44 @@ redis 127.0.0.1:6379> getset cnt 2
 1:不存在的key当成0,再incr操作  
 2: 范围为64有符号
 
-`
-`incrby key number`
+
+10. `incrby key number`
 
 ```
 redis 127.0.0.1:6379> incrby age  90
 (integer) 92
+```
 
-incrbyfloat key floatnumber
+11. `incrbyfloat key floatnumber`
+
+```
 redis 127.0.0.1:6379> incrbyfloat age 3.5
 "95.5"
+```
 
-decr key
+12. `decr key`
+作用: 指定的key的值加1,并返回加1后的值
+
+```
 redis 127.0.0.1:6379> set age 20
 OK
 redis 127.0.0.1:6379> decr age
 (integer) 19
+```
 
-decrby key number
+13. `decrby key number`
+
+```
 redis 127.0.0.1:6379> decrby age 3
 (integer) 16
 ```
 
-`getbit key offset`
+14. `getbit key offset`
+
 
 作用:获取值的二进制表示,对应位上的值(从左,从0编号)
+
+```
 redis 127.0.0.1:6379> set char A
 OK
 redis 127.0.0.1:6379> getbit char 1
@@ -126,9 +139,9 @@ redis 127.0.0.1:6379> getbit char 2
 (integer) 0
 redis 127.0.0.1:6379> getbit char 7
 (integer) 1
+```
 
-
-`setbit  key offset value`
+15. `setbit  key offset value`
 
 设置offset对应二进制位上的值  
 返回: 该位上的旧值  
@@ -139,7 +152,7 @@ redis 127.0.0.1:6379> getbit char 7
 3:offset最大2^32-1,可推出最大的的字符串为512M  
 
 
-`bitop operation destkey key1 [key2 ...]`
+17. `bitop operation destkey key1 [key2 ...]`
 
 对key1,key2..keyN作operation,并将结果保存到 destkey 上。
 operation 可以是 AND 、 OR 、 NOT 、 XOR
