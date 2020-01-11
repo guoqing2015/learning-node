@@ -14,4 +14,5 @@
 ### 燕十八redis视频教程
 - [01 - redis特点及安装使用](Tutorial/燕十八redis视频教程/01%20-%20redis特点及安装使用.md)
 - [02 - redis通用key操作命令](Tutorial/燕十八redis视频教程/02%20-%20redis通用key操作命令.md)
+- [03 - redis字符串类型的操作](Tutorial/燕十八redis视频教程/03%20-%20redis字符串类型的操作)
 
