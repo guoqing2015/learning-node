@@ -42,7 +42,7 @@ redis 127.0.0.1:6379> zrange stu 0 -1
 查询 member的排名(降续 0名开始)
 
 7. `zrange key start stop [withscores]`  
-把集合排序后,返回名次[start,stop]的元素  
+把集合排序后,返回名次start,stop的元素  
 默认是升续排列   
 Withscores 是把score也打印出来  
 
@@ -53,10 +53,10 @@ zrange key 0 -1 withscores
 
 
 8. `zrevrange key start stop`  
-作用:把集合降序排列,取名字[start,stop]之间的元素
+作用:把集合降序排列,取名字start,stop之间的元素
 
 9. `zrangebyscore  key min max [withscores] limit offset N`  
-作用: 集合(升续)排序后,取score在[min,max]内的元素,  
+作用: 集合(升续)排序后,取score在min,max (包括min和max)内的元素,  
 并跳过 offset个, 取出N个  
 
 ```
@@ -73,7 +73,7 @@ redis 127.0.0.1:6379> zrangebyscore stu 3 12 limit 1 2 withscores
 返回元素个数
 
 11. `zcount key min max`  
-返回[min,max] 区间内元素的数量
+返回min,max (包括min和max) 区间内元素的数量
 
 
 12. 
@@ -81,14 +81,14 @@ redis 127.0.0.1:6379> zrangebyscore stu 3 12 limit 1 2 withscores
 zinterstore destination numkeys key1 [key2 ...] 
 [WEIGHTS weight [weight ...]] 
 [AGGREGATE SUM|MIN|MAX]
-`
-求key1,key2的交集,key1,key2的权重分别是 weight1,weight2
-聚合方法用: sum |min|max
-聚合的结果,保存在dest集合内
+`  
+求key1,key2的交集,key1,key2的权重分别是 weight1,weight2  
+聚合方法用: sum | min | max , 默认是求和  
+聚合的结果,保存在destination集合内  
 
-注意: weights ,aggregate如何理解?
-答: 如果有交集, 交集元素又有socre,score怎么处理?
- Aggregate sum->score相加   , min 求最小score, max 最大score
+注意: weights ,aggregate如何理解?  
+答: 如果有交集, 交集元素又有socre,score怎么处理?  
+ Aggregate sum->score相加   , min 求最小score, max 最大score  
 
 另: 可以通过weigth设置不同key的权重, 交集时,socre * weights
 
@@ -122,7 +122,7 @@ redis 127.0.0.1:6379> zrange tmp 0 -1 withscores
 2) "1"
 3) "a"
 4) "2"
-redis 127.0.0.1:6379> zinterstore tmp 2 z1 z2 weights 1 2
+redis 127.0.0.1:6379> zinterstore tmp 2 z1 z2 weights 1 2 aggregate sum
 (integer) 2
 redis 127.0.0.1:6379> zrange tmp 0 -1 withscores
 1) "b"
