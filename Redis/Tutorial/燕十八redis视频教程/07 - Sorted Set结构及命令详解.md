@@ -1,4 +1,4 @@
-# order set结构及命令详解
+# Sorted Set结构及命令详解
 
 
 1. `zadd key score1 value1 score2 value2 ..`  
@@ -17,7 +17,7 @@ redis 127.0.0.1:6379> zadd stu 18 lily 19 hmm 20 lilei 21 lilei
 
 ```
 redis 127.0.0.1:6379> zremrangebyscore stu 4 10
-(integer) 2
+(integer) 2 
 redis 127.0.0.1:6379> zrange stu 0 -1
 1) "f"
 ```
