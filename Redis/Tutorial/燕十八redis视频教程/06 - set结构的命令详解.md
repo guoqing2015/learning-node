@@ -52,15 +52,15 @@ redis 127.0.0.1:6379> sinter s3 s1 s2
 "4"
 ```
 
-10. `sinterstore dest key1 key2 key3`
+10. `sinterstore dest key1 key2 key3`    
 作用: 求出key1 key2 key3 三个集合中的交集,并赋给dest
 
 
-11. `suion key1 key2.. Keyn`
+11. `suion key1 key2.. Keyn`  
 作用: 求出key1 key2 keyn的并集,并返回
 
-12. `sdiff key1 key2 key3`
-作用: 求出key1与key2 key3的差集
+12. `sdiff key1 key2 key3`   
+作用: 求出key1与key2 key3的差集  
 即key1-key2-key3 
 
 
