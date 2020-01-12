@@ -74,5 +74,19 @@ redis 127.0.0.1:6379>
 ```
 
 
+场景: task + bak 双链表完成安全队列
+Task列表                             bak列表
+
+业务逻辑:
+1:Rpoplpush task bak
+2:接收返回值,并做业务处理
+3:如果成功,rpop bak 清除任务. 如不成功,下次从bak表里取任务
+
+
+12. `brpop|blpop  key timeout`
+
+作用: 等待弹出key的尾/头元素, Timeout为等待超时时间，如果timeout为0,则一直等待
+
+场景: 长轮询Ajax,在线聊天时,能够用到
 
 
