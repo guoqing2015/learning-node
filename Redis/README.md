@@ -19,4 +19,5 @@
 - [05 - 位图法统计活跃用户](Tutorial/燕十八redis视频教程/05%20-%20位图法统计活跃用户.md)
 - [06 - set结构的命令详解](Tutorial/燕十八redis视频教程/06%20-%20set结构的命令详解.md)
 - [07 - Sorted Set结构及命令详解](Tutorial/燕十八redis视频教程/07%20-%20Sorted%20Set结构及命令详解.md)
+- [08 - hash结构及命令详解](Tutorial/燕十八redis视频教程/08%20-%20hash结构及命令详解.md)
 

@@ -9,6 +9,7 @@
 * [Mysql](Mysql/README.md)
 * [Redis](Redis/README.md)
 * [RabbitMQ](RabbitMQ/README.md)
+* [Nginx](Nginx/README.md)
 * [Linux](Linux/README.md)
 * [Nodejs之安全](安全/README.md)
 * [Nodejs之部署](部署/README.md)
