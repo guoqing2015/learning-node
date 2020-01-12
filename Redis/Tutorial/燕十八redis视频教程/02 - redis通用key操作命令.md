@@ -1,12 +1,11 @@
 # redis通用key操作命令
 
 
-1. `keys pattern` 查询相应的key
-
+1. `keys pattern` 查询相应的key  
 在redis里,允许模糊查询key
 
-有3个通配符 `*`, `?` ,`[]`
-- *: 通配任意多个字符
+有3个通配符 `*`, `?` ,`[]`  
+- *: 通配任意多个字符  
 - ?: 通配单个字符
 - []: 通配括号内的某1个字符
 
@@ -35,31 +34,30 @@ redis 127.0.0.1:6379> keys on[eaw]
 ```
 
 
-2. `randomkey` 返回随机key
+2. `randomkey`   
+返回随机key
 
 
-3. `exists key` 判断key是否存在,返回1/0
+3. `exists key`  
+ 判断key是否存在,返回1/0
 
 
-4. `type key` 返回key存储的值的类型
-
+4. `type key`   
+返回key存储的值的类型  
 有string,link,set,order set, hash
 
 
-5. `del key1 key2 ... Keyn`
-
+5. `del key1 key2 ... Keyn`  
 作用: 删除1个或多个键  
 返回值: 不存在的key忽略掉,返回真正删除的key的数量
 
 
-6. `rename key newkey`
-
+6. `rename key newkey`  
 作用: 给key赋一个新的key名  
 注:如果newkey已存在,则newkey的原值被覆盖
 
 
-7. `renamenx key newkey`
-
+7. `renamenx key newkey`  
 作用: 把key改名为newkey  
 返回: 发生修改返回1,未发生修改返回0  
 注: nx--> not exists, 即, newkey不存在时,作改名动作
@@ -93,8 +91,7 @@ redis 127.0.0.1:6379[2]> get cc
 如果想打开更多数据库,可以从配置文件修改)
 
 
-9. `ttl key `
-
+9. `ttl key `  
 作用: 查询key的生命周期  
 返回: 秒数  
 注:对于不过期的key，返回-1, 不存在的key，返回-2
@@ -102,17 +99,15 @@ redis 127.0.0.1:6379[2]> get cc
 `pttl  key`, 以毫秒返回生命周期
 
 
-10. `expire key 整型值`
-
+10. `expire key 整型值`  
 作用: 设置key的生命周期,以秒为单位  
 同理:   
 `pexpire key 毫秒数`, 设置生命周期
 
 
-11. `persist key`
-
+11. `persist key`  
 作用: 把指定key置为永久有效
 
 
-12. `flushdb`
+12. `flushdb`  
 清空数据库
