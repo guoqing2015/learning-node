@@ -9,7 +9,7 @@ Redis 中的事务
 
 |   | Mysql | Redis |
 | ------------- | ------------- | ------------- |
-| 开启 | start transaction  |  muitl      |
+| 开启 | start transaction  |  multi      |
 | 失败 | rollback 回滚       | discard 取消  |
 | 提交 | commit             |  exec    |
 
@@ -31,23 +31,23 @@ Exec之后,会执行正确的语句,并跳过有不适当的语句.
 
 
 思考: 
-我正在买票
-Ticket -1 , money -100
-而票只有1张, 如果在我multi之后,和exec之前, 票被别人买了---即ticket变成0了.
-我该如何观察这种情景,并不再提交
+我正在买票  
+Ticket -1 , money -100  
+而票只有1张, 如果在我multi之后,和exec之前, 票被别人买了---即ticket变成0了.  
+我该如何观察这种情景,并不再提交  
 
-悲观的想法: 
-世界充满危险,肯定有人和我抢, 给 ticket上锁, 只有我能操作. [悲观锁]
+悲观的想法:   
+世界充满危险,肯定有人和我抢, 给 ticket上锁, 只有我能操作. (**悲观锁**)  
 
-乐观的想法:
-没有那么人和我抢,因此,我只需要注意,
---有没有人更改ticket的值就可以了 [乐观锁]
+乐观的想法:  
+没有那么人和我抢,因此,我只需要注意,  
+--有没有人更改ticket的值就可以了 (**乐观锁**)   
+ 被改动.  
 
-Redis的事务中,启用的是乐观锁,只负责监测key没有被改动.
 
-
-具体的命令----  watch命令
-例: 
+具体的命令----  **watch命令** 
+例:   
+```
 redis 127.0.0.1:6379> watch ticket
 OK
 redis 127.0.0.1:6379> multi
@@ -62,12 +62,12 @@ redis 127.0.0.1:6379> get ticket
 "0"
 redis 127.0.0.1:6379> get money
 "200"
+```
 
+`watch key1 key2  ... keyN`  
+作用:监听key1 key2..keyN有没有变化,如果有变, 则事务取消  
 
-watch key1 key2  ... keyN
-作用:监听key1 key2..keyN有没有变化,如果有变, 则事务取消
-
-unwatch 
+`unwatch`
 作用: 取消所有watch监听
 
 
