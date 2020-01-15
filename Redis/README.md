@@ -24,4 +24,5 @@
 - [10 - 频道发布和消息订阅](Tutorial/燕十八redis视频教程/10%20-%20频道发布和消息订阅.md)
 - [11 - redis快照持久化](Tutorial/燕十八redis视频教程/11%20-%20redis快照持久化.md)
 - [12 - aof日志持久化](Tutorial/燕十八redis视频教程/12%20-%20aof日志持久化.md)
+- [13 - redis主从复制](Tutorial/燕十八redis视频教程/13%20-%20redis主从复制.md)
 
