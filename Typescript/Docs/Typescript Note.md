@@ -197,8 +197,9 @@ abstract class Person{
 class Emplayee extends Person {
   empCode: number;
 
-  constructor(name: string, empCode: number){
-    super(name); // 必须调用 super
+  constructor(name: string, empCode: number) {
+    // super调用父类的构造方法
+    super(name); 
     this.empCode = empCode;
   }
 
@@ -210,7 +211,78 @@ class Emplayee extends Person {
 
 ### public, private, protected
 
-`public` 公有属性和公有方法都可以当前类和通过当前类实例化后的对象中调用，默认就是public。在继承的类和通过继承类实例化后的对象中都可以使用。  ··
-`private` 私有属性和私有方法，只能在当前类中使用。  
-`protected` 受保护的属性和受保护的方法  
+`public` 公有属性和公有方法都可以当前类和通过当前类实例化后的对象中调用，默认就是public。在子类和通过子类实例化后的对象中都可以使用。  
+`private` 私有属性和私有方法，只能在当前类中的内部使用，实例化后的对象不能访问，子类中也无法访问。子类可继承私有方法和属性 
+`protected` 受保护的属性和受保护的方法，在当前类的内部可访问，在子类中也可以访问。
 
+
+```
+class Animal{
+   public size:string = "small"  
+   protected name:string
+   private fierce:number
+   protected constructor(animalName:string,fierce = 0){
+        this.name = animalName
+   }
+   setSize(animalSize:string){
+        this.size = animalSize
+   }
+   setName(animalName:string):void{
+        this.name = animalName
+   }
+   getFierce():number{
+        return this.fierce
+   }
+}
+
+
+class Cat extends Animal{
+    constructor(catName:string){
+        super(catName)
+    }
+    getAnimalSize():string{
+         return this.size
+         // public 在子类里可以直接取到
+    }
+    getAnimalName():string{
+        return this.name  
+        // 这样可以取到name，因为name是protected，可以在子类里访问
+    }
+
+
+     //     getAnimalFierce():number{
+     //          return this.fierce
+     //     }
+
+
+    // this.fierce这样取不到fierce，因为fierce是private私有的，只能在声明它的类里访问，只能在Animal类里访问
+    // Property 'fierce' is private and only accessible within class 'Animal'
+}
+
+
+let cat = new Cat("Cat")
+
+// let animal = new Animal("Dog")
+// 构造函数前加protected，就不能实例化了
+// Constructor of class 'Animal' is protected and only accessible within the class declaration.
+
+// console.log("这个动物是： " + cat.name)
+// animal.name 这样取不到name，因为name是protected，但是可以在子类里访问
+//  Property 'name' is protected and only accessible within class 'Animal' and its subclasses.
+
+console.log("这个动物是： " + cat.getAnimalName())
+console.log("小猫的大小是： " +cat.size)   // 可以直接.size取，因为size是public
+```
+
+### 构造方法
+
+如果申明为`protected`或`private`，当前类不能new  
+当父类申明为`protected`，子类重写`constructor`方法后可以new， (子类可以new)  
+当父类申明为`private`，子类不能new和extends
+
+使用：  
+1. 父类不想被实例化，而只让子类实例化，`constructor`可以申明为`protected`
+2. 都不想让子类或父类实例化或继承，`constructor`可以申明为`private`
+3. 一般情况下， `constructor`可以申明为`public`或不写
+
+### 静态属性和静态方法
