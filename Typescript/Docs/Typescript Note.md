@@ -282,7 +282,29 @@ console.log("小猫的大小是： " +cat.size)   // 可以直接.size取，因�
 
 使用：  
 1. 父类不想被实例化，而只让子类实例化，`constructor`可以申明为`protected`
-2. 都不想让子类或父类实例化或继承，`constructor`可以申明为`private`
+2. 都不想让子类或父类实例化或继承，`constructor`可以申明为`private`  
 3. 一般情况下， `constructor`可以申明为`public`或不写
 
+
 ### 静态属性和静态方法
+
+
+```
+// 静态
+class StaticCls {
+    // 静态属性
+    static userName:string = 'static name';
+    // 静态方法
+    static work():void{
+        console.log(`${StaticCls.userName}在工作`);
+    }
+}
+```
+
+### readonly 只读属性
+
+```
+class Person {
+  readonly name:string = 'test';
+}
+```
