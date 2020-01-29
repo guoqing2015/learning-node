@@ -1,6 +1,6 @@
 # 
 
-## 基础
+## Typescript Note
 
 ### array类型
 
@@ -52,6 +52,14 @@ const add = (a: number, b: number): void => {
 ```
 // 参数b的默认值为10
 const add = (a: number, b: number = 10): number => {
+  return a + b;
 }
+add(10); // 返回20
 ```
 
+在参数后面加上一个`?`，表示该参数是可选参数
+```
+const add = (a:number, b?: number): number => {
+  return a + b;
+}
+```
