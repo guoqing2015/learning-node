@@ -618,4 +618,49 @@ let example: NestedCss = {
 }
 ```
 
+### 列表
 
+用接口
+
+```
+interface Todo {
+  id: number,
+  title: string,
+  completed: boolean
+}
+
+let todos: Todo[] = [
+  {
+    id: 1,
+    title: 'title',
+    completed: false
+  },
+  {
+    id: 2,
+    title: 'title2',
+    completed: true
+  }
+]
+```
+
+用class
+```
+class Todo {
+  id: number,
+  title: string,
+  completed: boolean
+}
+
+let todos: Todo[] = [
+  {
+    id: 1,
+    title: 'title',
+    completed: false
+  },
+  {
+    id: 2,
+    title: 'title2',
+    completed: true
+  }
+]
+```
