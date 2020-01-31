@@ -24,82 +24,13 @@ let arr: number[] = [1, 2, 3]
 let tuple: [string, number] = ['test', 111]
 ```
 
-
-### 函数
-
-#### 参数类型
-
-指定参数a和b为number类型，返回值的类型也为number类型
-```
-function add(a: number, b: number): number {
-  return a + b;
-}
-```
-
-箭头函数写法
-```
-const add = (a: number, b: number): number => {
-  return a + b;
-}
-```
-
-#### 返回值
-
-使用void，函数没有返回值
-```
-const add = (a: number, b: number): void => {
-  // 函数体中没有return
-}
-```
-
-
-#### 默认参数
-
-函数参数使用默认值
-```
-// 参数b的默认值为10
-const add = (a: number, b: number = 10): number => {
-  return a + b;
-}
-add(10); // 返回20
-```
-
-默认参数可以不指定类型，会自动判断和计算
-```
-//指定参数b的默认值为10，则b的类型为number类型
-const add = (a: number, b= 10): number => {
-  return a + b;
-}
-add(10, 'a string'); // 报错
-```
-
-#### 可选参数
-
-在参数后面加上一个`?`，表示该参数是可选参数
-```
-const add = (a:number, b?: number): number => {
-  return a + b;
-}
-```
-
-#### 不确定参数 Rest Parameters
-
-```
-const add = (a: number, ...nums: number[]): number => {
-  const b = nums.reduce(function(total, value) {
-    return total + value;
-  }, 0)
-  return a + b;
-}
-add(1, 1, 2, 3, 4);  // 11 
-```
-
 ### 任意类型 any
 
 慎用any类型，可能会自己判断类型
 ```
 let a:any:
 ```
+
 
 
 ### null、undefined
@@ -159,6 +90,135 @@ log('egg') // you name is egg
 ```
 
 
+### void
+
+使用void，函数没有返回值
+```
+function sayHi(): void => {
+  // 函数体中没有return
+  console.log("Hi");
+}
+let a: void = sayHi();
+console.log(a); // Hi
+```
+
+### never
+
+1. 无限循环
+```
+function loopForever(): never {
+  // 无限循环
+  while(true) {
+
+  }
+}
+```
+
+2. 抛出异常
+```
+function terinateWithError(msg: string): never {
+  throw new Error(msg)
+}
+```
+
+
+
+## 函数
+
+### 参数类型
+
+指定参数a和b为number类型，返回值的类型也为number类型
+```
+function add(a: number, b: number): number {
+  return a + b;
+}
+```
+
+箭头函数写法
+```
+const add = (a: number, b: number): number => {
+  return a + b;
+}
+```
+
+
+### 默认参数
+
+函数参数使用默认值
+```
+// 参数b的默认值为10
+const add = (a: number, b: number = 10): number => {
+  return a + b;
+}
+add(10); // 返回20
+```
+
+默认参数可以不指定类型，会自动判断和计算
+```
+//指定参数b的默认值为10，则b的类型为number类型
+const add = (a: number, b= 10): number => {
+  return a + b;
+}
+add(10, 'a string'); // 报错
+```
+
+### 可选参数
+
+在参数后面加上一个`?`，表示该参数是可选参数
+```
+const add = (a:number, b?: number): number => {
+  return a + b;
+}
+```
+
+### 不确定参数 Rest Parameters
+
+```
+const add = (a: number, ...nums: number[]): number => {
+  const b = nums.reduce(function(total, value) {
+    return total + value;
+  }, 0)
+  return a + b;
+}
+add(1, 1, 2, 3, 4);  // 11 
+```
+
+
+
+### 如何定义函数类型
+
+方式一：
+```
+let a: Function;
+a = function (): void {
+
+}
+```
+
+方式二：
+```
+let b: (param: string) => string;
+b = function(p: string): string {
+  return p;
+}
+```
+
+方式三：
+```
+type Fn = (param: string) => string;
+let c: Fn = function(p: string): string {
+  return p;
+}
+```
+
+
+方式四：
+```
+interface Fn {
+  (param: string): string;
+}
+```
+const d:Fn = (param: string) => param;
 
 
 ## 类
@@ -229,6 +289,30 @@ class Emplayee extends Person {
   }
 }
 ```
+
+### Parameter Properties
+
+```
+class Person {
+  private _name: string;
+  private _age: number;
+  constructor(name: string, age: number) {
+    this._name = name;
+    this._age = age;
+  }
+}
+```
+
+可简写成
+
+```
+class Person {
+  constructor(private _name: string, private _age: number) {
+
+  }
+}
+```
+
 
 ### public, private, protected
 
@@ -330,6 +414,70 @@ class Person {
 }
 ```
 
+### getter setter
+```
+class Person {
+  private _name: string;
+  private _age: number;
+
+  constructor(name: string, age: number) {
+    this._name = name;
+    this._age = age;
+  }
+  // 读取
+  getName(): string {
+    return this._name;
+  }
+  
+  // 设置
+  setName(name: string): void {
+    this._name = name;
+  }
+}
+let p: Person = new Person('张三', 10);
+// 因为_name为私有属性，不能直接通过p._name获取，只能通过一个对外的方法即getName获取_name的值
+conosle.log(p.getName());
+p.setName('李四');
+```
+
+使用set get：
+
+```
+class Person {
+  private _name: string;
+  private _age: number;
+
+  constructor(name: string, age: number) {
+    this._name = name;
+    this._age = age;
+  }
+  get name(): string {
+    return this._name;
+  }
+  
+  set name(name: string) {
+    this._name = name;
+  }
+}
+let p: Person = new Person('张三', 10);
+// 获取 name
+console.log(p.name);
+// 设置 name
+p.name = "李四"
+```
+
+使用set get必须在`tsconfig.json`需要的配置：
+
+`
+{
+  "compilerOptions": {
+    "target": "es6",
+  }
+}
+
+`
+
+
 
 ## 接口
 
@@ -402,6 +550,37 @@ const user3: { name: string, age: number } = {
   age: 12
 }
 
+```
+
+### 函数重载
+
+函数重载允许用相同的名字与不同的参数来创造多个函数。
+
+```
+// 函数名相同，参数不同，无方法体
+function sum(x: number, y: number): number;
+function sum(x:number, y:number, z:number): number;
+ 
+function sum(x:number, y:number, z?:number): number {
+  if (typeof z === 'undefined'){
+    return x + y;
+  } else {
+    return x + y + z;
+  }
+}
+```
+
+```
+function divide(x: number, y: number): number;
+function divide(str: string, y:number): string[];
+ 
+function divide(x:any, y:number): any {
+  if (typeof x === 'number'){
+    return x / y;
+  } else {
+    return [x.substring(0, y), x.substring(y)]
+  }
+}
 ```
 
 
@@ -618,7 +797,7 @@ let example: NestedCss = {
 }
 ```
 
-### 列表
+### 如何处理列表数据
 
 用接口
 
@@ -664,3 +843,7 @@ let todos: Todo[] = [
   }
 ]
 ```
+
+
+
+
