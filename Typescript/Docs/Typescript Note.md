@@ -682,9 +682,9 @@ interface Person {
 }
 
 let person = <Person>{
-  name: 'gq',
-  age: 30
 }
+person.name = "gq";
+person.age = 30;
 ```
 
 ### 接口继承接口
@@ -846,4 +846,8 @@ let todos: Todo[] = [
 
 
 
+
+
+
+## 
 
