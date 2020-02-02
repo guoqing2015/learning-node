@@ -849,5 +849,170 @@ let todos: Todo[] = [
 
 
 
-## 
+## 泛型 
 
+
+### 基础
+
+`泛型`（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再指定类型的一种特性。
+
+如何限制数组的所有的元素都是纯数字或字符串
+```
+function getArray(items: any[]): any[] {
+  return new Array().concat(items)
+}
+```
+
+下面的方式代码重复，不好
+```
+function getArray(items: number[]): number[] {
+  return new Array().concat(items)
+}
+
+function getArray(items: string[]): string[] {
+  return new Array().concat(items)
+}
+```
+
+使用泛型
+```
+function getArray<T>(items: T[]): T[] {
+  return new Array<T>().concat(items);
+}
+
+let myNumArray = getArray<number>([100, 200, 300])
+let myStringArray = getArray<string>([100, 200, 300])
+
+myNumArray.push(400);
+myStringArray.push('Hello');
+
+myNumArray.push('test'); // 报错
+myStringArray.push(5); // 报错
+```
+
+
+
+### 泛型类
+```
+class List<T> {
+  private data: T[];
+
+  constructor(elements: T[]) {
+    this.data = elements;
+  }
+
+  add(t: T) {
+    this.data.push(t);
+  }
+
+  remove(t: T) {
+    let index = this.data.indexOf(t);
+    if (index > -1) } {
+      this.data.splice(index, 1);
+    }
+  }
+
+  asArray(): T[] {
+    return this.data;
+  }
+
+}
+
+let numbers = new List<number>([1, 2, 3, 4]);
+numbers.add(3);
+numbers.remove(3);
+let numArray = numbers.asArray();
+console.log(numArray); // 1,2,4, 5
+
+
+let fruits = new List<string>(['apple', 'banana', 'orange'])
+fruits.add('mango');
+fruits.remove('apple');
+let fruitArray = fruits.asArray();
+console.log(fruitArray); // ['banana', 'orange', 'mango'];
+```
+
+
+```
+class Pair<F, S> {
+  private _first: F;
+  private _second: S;
+
+  constructor(first: F, second: S) {
+    this._first = first;
+    this._second = second;
+  }
+
+  get frist: F {
+    return this.first;
+  }
+
+  get second: F {
+    return this._second;
+  }
+}
+let pair = new Pair<boolean, string>(true, "111");
+console.log(pair.first);
+console.log(pair.second);
+```
+
+
+## 泛型函数
+
+```
+function identity<T>(arg: T): T {
+  return arg;
+}
+
+let myIdentity: <T>(arg: T) => T = identity;
+```
+
+## 泛型接口
+
+```
+interface Pair<F, S> {
+  first: F;
+  second: F;
+}
+
+let p: Pair<string, number> = {first: "test", second: 10};
+console.log(p)
+``` 
+
+```
+interface Comand<T, R> {
+  id: T;
+  run(): R
+}
+
+let c: Command<string, number> = {
+  id: Math.random().toString(36),
+  run: function() {
+    return 3
+  }
+}
+```
+
+```
+interface ElementChecker {
+  // 函数
+  <T>(item: T[], toBeChecked: T, atIndex: number): bolean;
+}
+
+function checkElementAt<T>(elements: T[], toBeChecked: T, atIndex: number): bollean {
+  return elements[atIndex] === toBeChecked;
+}
+
+let checker: ElementChecker = checkElementAt;
+let items = [1, 3, 5, 7];
+let b:boolean = checker<number>(items, 5, 2)
+```
+
+### 在索引接口中使用泛型
+```
+interface States<R> {
+  [state: string]: R
+}
+
+let s: States<boolean> = {'enabled': true, 'maximized': false}
+```
