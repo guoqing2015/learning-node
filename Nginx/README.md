@@ -8,3 +8,4 @@
 ### 燕十八nginx视频教程
 * [01 - nginx介绍及编译安装](./Tutorial/燕十八nginx视频教程/01%20-%20nginx介绍及编译安装.md)
 * [02 - nginx信号量](./Tutorial/燕十八nginx视频教程/02%20-%20nginx信号量.md)
+* [03 - nginx虚拟主机配置](./Tutorial/燕十八nginx视频教程/03%20-%20nginx虚拟主机配置.md)
