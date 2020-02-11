@@ -41,8 +41,10 @@ Nginx的信号控制
 查看pid， 即主进程号：
 ```
 cat  /usr/local/nginx
-cat  ./logs/nginx.pid
+cat  ./logs/nginx.pid  
 ```
+返回：10693
+
 
 
 kill -信号控制 `cat /xxx/path/logs/nginx.pid`
