@@ -4,13 +4,13 @@ Nginx配置段
 
 // 全局区 
 worker_processes 1; // 有1个工作的子进程,可以自行修改,但太大无益,因为要争夺CPU,一般设置为 CPU数*核数
-
+```
 Event {
 // 一般是配置nginx连接的特性
 // 如1个word能同时允许多少连接
  worker_connections  1024; // 这是指 一个子进程最大允许连1024个连接
 }
-
+```
 ```
 http {  //这是配置http服务器的主要段
      Server1 { // 这是虚拟主机段
