@@ -24,7 +24,8 @@
 * [Nodejs技巧之----Joi数据校验](https://www.jianshu.com/p/e6e277c1fda2)
 * [Nodejs在 VS Code中调试](https://github.com/nswbmw/node-in-debugging/blob/master/4.3%20Visual%20Studio%20Code.md)
 
-
+### 定时任务
+* [Nodejs定时任务（node-schedule)](https://www.jianshu.com/p/8d303ff8fdeb)
 
 ## Code
 * [Creating a REST API with Node.js](/Code/Creating%20a%20REST%20API%20with%20Node.js)
