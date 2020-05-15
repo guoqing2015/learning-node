@@ -13,6 +13,8 @@
 - [Linux下安装MySQL5.7版本](https://segmentfault.com/a/1190000012703513)
 - [Linux下远程连接MySQL数据库](https://www.jianshu.com/p/8fc90e518e2c)
 
+### 基础
+- [Linux下查看用户列表](https://blog.csdn.net/rainbow702/article/details/50985672)
 
 ### 安全
 
