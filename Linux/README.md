@@ -17,8 +17,8 @@
 ### 安全
 
 - [Linux挖矿病毒的清除与分析](https://www.freebuf.com/vuls/200289.html)
--[Linux下修改文件属性 —— chattr和lsattr命令介绍](https://blog.csdn.net/jasonchen_gbd/article/details/79126312)
-
+- [Linux下修改文件属性 —— chattr和lsattr命令介绍](https://blog.csdn.net/jasonchen_gbd/article/details/79126312)
+- [Linux - 查看软件安装与安装路径](https://blog.csdn.net/J080624/article/details/78082745)
 
 
 
