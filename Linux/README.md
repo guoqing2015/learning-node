@@ -14,6 +14,10 @@
 - [Linux下远程连接MySQL数据库](https://www.jianshu.com/p/8fc90e518e2c)
 
 
+### 安全
+
+-[Linux挖矿病毒的清除与分析](https://www.freebuf.com/vuls/200289.html)
+
 
 
 
