@@ -15,6 +15,7 @@
 
 ### 基础
 - [Linux下查看用户列表](https://blog.csdn.net/rainbow702/article/details/50985672)
+- [Systemd 指令](https://www.cnblogs.com/zwcry/p/9602756.html)
 
 ### 安全
 
