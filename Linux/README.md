@@ -18,7 +18,7 @@
 - [在 Linux 服务器上安装 Nodejs、Nginx 以及部署 Web 应用](https://www.jianshu.com/p/ee935729f49c)
 - [Linux下redis安装和部署](https://www.cnblogs.com/limit1/p/9045183.html)
 - [Linux下安装MySQL5.7版本](https://segmentfault.com/a/1190000012703513)
-- [Linux下RabbitMQ的安装及使用](https://www.cnblogs.com/rmxd/p/11583932.html)
+- [Linux下RabbitMQ的安装及使用](https://www.cnblogs.com/shuideqing/p/12074543.html)
 
 ### 安全
 
