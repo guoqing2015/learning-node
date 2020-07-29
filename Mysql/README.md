@@ -27,7 +27,7 @@
 * [mysql触发器案例分析以及before和after的区别](http://blog.itpub.net/29654823/viewspace-2153312/)
 * [MySQL连接字符串函数CONCAT，CONCAT_WS，GROUP_CONCAT使用总结](https://my.oschina.net/MiniBu/blog/478342)
 * [详细实例全面解析SQL存储过程](https://www.w3cschool.cn/sql/sql-storage.html)
-
+* [组合查询（Union）](https://segmentfault.com/a/1190000007926959)
 
 ### sequelize
 * [Sequelize 中文API文档](https://demopark.github.io/sequelize-docs-Zh-CN/)
