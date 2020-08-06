@@ -7,6 +7,7 @@
 * [中间件与next](Docs/中间件与next.md)
 * [bodyParser中间件](Docs/bodyParser中间件.md)
 * [Node——express模块中的req，res参数](https://blog.csdn.net/yuhui01/article/details/81151045)
+* [node.js 中间件express-session使用详解](https://segmentfault.com/a/1190000010306099)
 
 
 ## Code
