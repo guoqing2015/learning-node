@@ -9,6 +9,8 @@
 - [与Redis的交互](http://www.cnblogs.com/zhongweiv/p/node_redis.html)
 
 
+- [redis - Node.js Redis客户端模块](https://itbilu.com/nodejs/npm/EkiI9PG4-.html#api-multi)
+
 ## Tutorial
 
 ### 燕十八redis视频教程
