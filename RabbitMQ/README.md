@@ -4,6 +4,7 @@
 ## docs
 
 * [RabbitMQ研究讲义](./docs/跟传智燕青一起学RabbitMQ消息队列/RabbitMQ研究讲义.pdf)
+* [RabbitMQ消息发送、消费和确认（参数说明）](https://www.throwable.club/2018/11/25/rabbitmq-send-consume-confirm/)
 * [延迟任务处理方案](https://github.com/smallFive55/delayMessage)
 * [rabbitmq 限制队列长度和总字节数](https://www.dazhuanlan.com/2019/12/07/5deb259fe0806/)
 * [Node用RabbitMQ的死信队列来做定时任务](https://cnodejs.org/topic/5bb89e0fede204052db803d4)
