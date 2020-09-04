@@ -7,8 +7,6 @@
 - [Redis 中文文档](http://www.redis.cn/)
 - [Redis 命令参考](http://redisdoc.com/)
 - [与Redis的交互](http://www.cnblogs.com/zhongweiv/p/node_redis.html)
-
-
 - [redis - Node.js Redis客户端模块](https://itbilu.com/nodejs/npm/EkiI9PG4-.html#api-multi)
 
 ## Tutorial
