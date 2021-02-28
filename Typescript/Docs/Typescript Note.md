@@ -1032,6 +1032,68 @@ let s: States<boolean> = {'enabled': true, 'maximized': false}
 装饰器的写法：`普通装饰器`（无法传参） 、 `装饰器工厂`（可传参）
 
 
+```
+//类装饰器
+function logClass(params: string) {
+  console.log('logClass params', params)
+  return function (target: any) {
+    console.log('logClass target', target); //target为HttpClient类
+    target.prototype.apiUrl = 'xxx';
+    target.prototype.run = function () {
+    };
+    //target就是HttpClient类
+  }
+}
+
+//属性装饰器
+function logProperty(params: string) {
+  console.log('logProperty params', params);
+  return function (target: any, attr) {
+    console.log('logProperty target', target)
+    console.log('logProperty attr', attr); // 属性名
+    target[attr] = params;
+  }
+}
+
+// 函数装饰器
+function logMethod(params: string) {
+  console.log('logMethod params', params);
+  return function (target: any, methodName, desc) {
+    console.log('logMethod target', target)
+    console.log('logMethod methodName', methodName); //函数名
+    console.log('logMethod desc', desc); //desc.value 函数体
+  }
+}
+
+//参数装饰器
+function logParam(params: string) {
+  console.log('logParam params', params);
+  return function (target: any, methodName, paramIndex) {
+    console.log('logParam target', target)
+    console.log('logParam methodName', methodName); //函数名
+    console.log('logParam paramIndex', paramIndex); //参数索引
+  }
+}
+
+@logClass('http://xxx')
+class HttpClient {
+  constructor() {
+
+  }
+
+  @logProperty('http://yyy')
+  public url: any | undefined;
+
+  @logMethod('1234')
+  getData() {
+
+  }
+
+  getData2(@logParam('abcd') uuid) {
+
+  }
+}
+```
 
 ### 类装饰器
 
