@@ -24,7 +24,8 @@
 * [MySQL - exists与in及any的用法](https://blog.csdn.net/J080624/article/details/72910548)
 * [MySQL查询语句中的IN 和Exists 对比分析](https://blog.51cto.com/andrewli/2120928)
 * [select case when if 的一些用法](https://www.cnblogs.com/martinzhang/p/3220595.html)
-* [Mysql之IN 和 Exists 用法](https://www.cnblogs.com/zhangminghui/p/4403672.html)\
+* [mysql中find_in_set()函数的使用](https://www.cnblogs.com/xiaoxi/p/5889486.html)
+* [Mysql之IN 和 Exists 用法](https://www.cnblogs.com/zhangminghui/p/4403672.html)
 * [mysql触发器案例分析以及before和after的区别](http://blog.itpub.net/29654823/viewspace-2153312/)
 * [MySQL连接字符串函数CONCAT，CONCAT_WS，GROUP_CONCAT使用总结](https://my.oschina.net/MiniBu/blog/478342)
 * [详细实例全面解析SQL存储过程](https://www.w3cschool.cn/sql/sql-storage.html)
