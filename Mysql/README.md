@@ -30,6 +30,7 @@
 * [MySQL连接字符串函数CONCAT，CONCAT_WS，GROUP_CONCAT使用总结](https://my.oschina.net/MiniBu/blog/478342)
 * [详细实例全面解析SQL存储过程](https://www.w3cschool.cn/sql/sql-storage.html)
 * [组合查询（Union）](https://segmentfault.com/a/1190000007926959)
+* [MySQL类型float double decimal的区别](https://www.cnblogs.com/gulibao/p/5416245.html)
 
 ### sequelize
 * [Sequelize 中文API文档](https://demopark.github.io/sequelize-docs-Zh-CN/)
