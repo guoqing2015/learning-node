@@ -31,7 +31,7 @@
 * [详细实例全面解析SQL存储过程](https://www.w3cschool.cn/sql/sql-storage.html)
 * [组合查询（Union）](https://segmentfault.com/a/1190000007926959)
 * [MySQL类型float double decimal的区别](https://www.cnblogs.com/gulibao/p/5416245.html)
-* [Update批量更新与批量更新多条记录的不同值实现方法](https://www.huaweicloud.com/articles/3881658540ff57badbb4a8cc50ed355d.html)
+* [Update批量更新与批量更新多条记录的不同值实现方法](https://www.jianshu.com/p/f71c88aca6fc)
 
 ### sequelize
 * [Sequelize 中文API文档](https://demopark.github.io/sequelize-docs-Zh-CN/)
