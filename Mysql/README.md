@@ -31,6 +31,7 @@
 * [详细实例全面解析SQL存储过程](https://www.w3cschool.cn/sql/sql-storage.html)
 * [组合查询（Union）](https://segmentfault.com/a/1190000007926959)
 * [MySQL类型float double decimal的区别](https://www.cnblogs.com/gulibao/p/5416245.html)
+* [Update批量更新与批量更新多条记录的不同值实现方法](https://www.huaweicloud.com/articles/3881658540ff57badbb4a8cc50ed355d.html)
 
 ### sequelize
 * [Sequelize 中文API文档](https://demopark.github.io/sequelize-docs-Zh-CN/)
@@ -59,7 +60,7 @@
 * [09 - 事务.md](Tutorial/MySQL高级进阶视频教程/09%20-%20事务.md)
 * [10 - 慢查询.md](Tutorial/MySQL高级进阶视频教程/10%20-%20慢查询.md)
 * [11 - 索引.md](Tutorial/MySQL高级进阶视频教程/11%20-%20索引.md)
-<!-- * [12 - 表的优化.md](Tutorial/MySQL高级进阶视频教程/12%20-%20表的优化.md) -->
+* [12 - 表的优化.md](Tutorial/MySQL高级进阶视频教程/12%20-%20表的优化.md)
 * [13 - 表的分区.md](Tutorial/MySQL高级进阶视频教程/13%20-%20表的分区.md)
 * [14 - mysql的内存优化.md](Tutorial/MySQL高级进阶视频教程/14%20-%20mysql的内存优化.md)
 * [15 - mysql应用优化.md](Tutorial/MySQL高级进阶视频教程/15%20-%20mysql应用优化.md)
