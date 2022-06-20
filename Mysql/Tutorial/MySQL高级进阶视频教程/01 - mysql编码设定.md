@@ -56,8 +56,16 @@ CREATE TABLE `tb_users` (
 **解决多张拥有数据的表的字符编码问题**
 在管理员命令窗口执行以下命令
 
-1. 导出表 `mysqldump -uroot -p --default-character-set=utf8 -d database_name1 > /Users/guoqing/desktop/cc.sql`
+1. 导出表 `mysqldump -uroot -p --default-character-set=utf8 -d database_name1 > /Users/guoqing/desktop/cc.sql` 
 2. 导出数据  `mysqldump -uroot -p --quick --no-create-info  --extended-insert --default-character-set=utf8 database_name1 > /Users/guoqing/desktop/data.sql`, 在导出的 data.sql 文件最顶部加上 `set names utf8; `
 3. 重新建数据库 `create database database_name2 default charset utf8;`
 4. 导入表  `mysql -uroot -p database_name2 < /Users/guoqing/desktop/cc.sql`
 5. 导入数据  `mysql -uroot -p database_name2 < /Users/guoqing/desktop/data.sql`
+mysqldump -uguoqingadmin -p --quick --no-create-info  --extended-insert --default-character-set=utf8 crmeb_java_beta > /home/www/crmeb_data.sql
+
+
+ `./mysqldump -uguoqingadmin -p --default-character-set=utf8 -d crmeb_java_beta > /home/www/crmeb_table.sql`
+
+`./mysqldump -uguoqingadmin -p --quick --no-create-info  --extended-insert --default-character-set=utf8 crmeb_java_beta > /home/www/crmeb_data.sql`
+
+
