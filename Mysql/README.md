@@ -6,7 +6,7 @@
 ### mysql
 
 * [MySQL入门教程（MySQL tutorial book）](https://github.com/jaywcjlove/mysql-tutorial)
-* [MySQL的my.ini配置](https://github.com/jaywcjlove/mysql-tutorial/blob/master/chapter2/2.5.md)
+* [MySQL的my.ini配置]([https://github.com/jaywcjlove/mysql-tutorial/blob/master/chapter2/2.5.md](https://www.cnblogs.com/zhoading/p/15260978.html))
 * [mysql命令](https://juejin.im/post/5ae55861f265da0ba062ec71)
 * [MySQL数据类型](https://github.com/jaywcjlove/handbook/blob/master/MySQL/MySQL%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
 * [MYSQL数据库设计规范与原则](https://bbs.aliyun.com/read/534385.html?spm=a2c4e.11155515.0.0.14401fd24VGZ9R)
