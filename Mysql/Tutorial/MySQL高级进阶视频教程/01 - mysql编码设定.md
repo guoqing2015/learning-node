@@ -21,13 +21,20 @@
 +--------------------------+--------------------------------------------------------+
 ```
 
-`character_set_client`：客户端请求数据的字符集
+`character_set_client`：客户端请求数据的字符集 
+
 `character_set_connection`：从客户端接收到数据，然后传输的字符集
+
 `character_set_database`：默认数据库的字符集，无论默认数据库如何改变，都是这个字符集；如果没有默认数据库，那就使用 character_set_server指定的字符集，这个变量建议由系统自己管理，不要人为定义。
+
 `character_set_filesystem`：把os上文件名转化成此字符集，即把 character_set_client转换character_set_filesystem， 默认binary是不做任何转换的
+
 `character_set_results`：结果集的字符集
+
 `character_set_server`：数据库服务器的默认字符集。可在配置文件中修改， 
+
 `character-set-server=utf8`, 修改后重新启动mysql
+
 `character_set_system`：这个值总是utf8，不需要设置，是为存储系统元数据的字符集
 
 
@@ -57,15 +64,15 @@ CREATE TABLE `tb_users` (
 在管理员命令窗口执行以下命令
 
 1. 导出表 `mysqldump -uroot -p --default-character-set=utf8 -d database_name1 > /Users/guoqing/desktop/cc.sql` 
-2. 导出数据  `mysqldump -uroot -p --quick --no-create-info  --extended-insert --default-character-set=utf8 database_name1 > /Users/guoqing/desktop/data.sql`, 在导出的 data.sql 文件最顶部加上 `set names utf8; `
+2. 导出数据  `mysqldump -uroot -p --quick --no-create-info  --extended-insert --default-character-set=utf8mb4 database_name1 > /Users/guoqing/desktop/data.sql`, 在导出的 data.sql 文件最顶部加上 `set names utf8; `
 3. 重新建数据库 `create database database_name2 default charset utf8;`
 4. 导入表  `mysql -uroot -p database_name2 < /Users/guoqing/desktop/cc.sql`
 5. 导入数据  `mysql -uroot -p database_name2 < /Users/guoqing/desktop/data.sql`
-mysqldump -uguoqingadmin -p --quick --no-create-info  --extended-insert --default-character-set=utf8 crmeb_java_beta > /home/www/crmeb_data.sql
+mysqldump -uguoqingadmin -p --quick --no-create-info  --extended-insert --default-character-set=utf8mb4 crmeb_java_beta > /home/www/crmeb_data.sql
 
 
- `./mysqldump -uguoqingadmin -p --default-character-set=utf8 -d crmeb_java_beta > /home/www/crmeb_table.sql`
+ `./mysqldump -uguoqingadmin -p --default-character-set=utf8mb4 -d crmeb_java_beta > /home/www/crmeb_table.sql`
 
-`./mysqldump -uguoqingadmin -p --quick --no-create-info  --extended-insert --default-character-set=utf8 crmeb_java_beta > /home/www/crmeb_data.sql`
+`./mysqldump -uguoqingadmin -p --quick --no-create-info  --extended-insert --default-character-set=utf8mb4 crmeb_java_beta > /home/www/crmeb_data.sql`
 
 
