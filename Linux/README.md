@@ -29,7 +29,7 @@
 - [Linux - 查看软件安装与安装路径](https://blog.csdn.net/J080624/article/details/78082745)
 
 ### 防护
-- [肉鸡是怎样炼成的](https://tomotoes.com/blog/server-security-manual/)
+- [肉鸡是怎样炼成的]([https://tomotoes.com/blog/server-security-manual/](https://simonaking.com/blog/server-security-manual/))
 - [linux下IPTABLES配置详解](https://www.cnblogs.com/alimac/p/5848372.html)
 
 
